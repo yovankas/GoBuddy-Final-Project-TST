@@ -16,6 +16,6 @@ To access the live service, please visit the following link:
    ```bash
    git clone https://github.com/yovankas/GoBuddy-Final-Project-TST.git
 
-Kelompok 6 K-02 Teknologi Sistem Terintegrasi
+## Kelompok 6 K-02 Teknologi Sistem Terintegrasi
 1. Tamara Mayranda Lubis | 18222026
 2. Yovanka Sandrina Maharaja | 18222094
