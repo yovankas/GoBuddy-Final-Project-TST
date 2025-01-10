@@ -1,0 +1,490 @@
+DEBUG - 2025-01-05 10:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 10:45:49 --> Executing command: node "D:\NINA\itb\sANtAi\5\tst\CodeIgniter4-develop\app/ThirdParty/puppeteer/scrapeGoogleFlights.js" ""JKT"" ""SIN"" ""2025-01-05""
+DEBUG - 2025-01-05 10:46:33 --> Raw output: [
+  {
+    "airline": "Batik Air",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/ID.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/ID.png)"
+    },
+    "departureTime": "6:30 PM",
+    "arrivalTime": "9:15 PM",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 1,327,600"
+  },
+  {
+    "airline": "Jetstar",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/3K.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/3K.png)"
+    },
+    "departureTime": "9:25 PM",
+    "arrivalTime": "12:20 AM+1",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 2,149,000"
+  },
+  {
+    "airline": "Scoot",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/TR.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/TR.png)"
+    },
+    "departureTime": "8:30 PM",
+    "arrivalTime": "11:15 PM",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 2,181,600"
+  },
+  {
+    "airline": "Garuda Indonesia",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/GA.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/GA.png)"
+    },
+    "departureTime": "7:00 PM",
+    "arrivalTime": "9:45 PM",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 2,860,700"
+  },
+  {
+    "airline": "Batik Air",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/OD.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/OD.png)"
+    },
+    "departureTime": "10:35 PM",
+    "arrivalTime": "8:40 PM+1",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 1,892,100"
+  },
+  {
+    "airline": "Batik Air",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/OD.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/OD.png)"
+    },
+    "departureTime": "10:35 PM",
+    "arrivalTime": "9:30 AM+1",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 2,072,200"
+  },
+  {
+    "airline": "Singapore Airlines",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/SQ.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/SQ.png)"
+    },
+    "departureTime": "6:00 PM",
+    "arrivalTime": "8:55 PM",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 4,251,200"
+  },
+  {
+    "airline": "Singapore Airlines",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/SQ.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/SQ.png)"
+    },
+    "departureTime": "7:00 PM",
+    "arrivalTime": "9:55 PM",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 4,251,200"
+  },
+  {
+    "airline": "Batik Air",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/ID.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/ID.png)"
+    },
+    "departureTime": "5:50 PM",
+    "arrivalTime": "8:35 PM",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": null
+  },
+  {
+    "airline": "Batik Air",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/ID.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/ID.png)"
+    },
+    "departureTime": "6:30 PM",
+    "arrivalTime": "9:15 PM",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 1,327,600"
+  },
+  {
+    "airline": "Jetstar",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/3K.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/3K.png)"
+    },
+    "departureTime": "9:25 PM",
+    "arrivalTime": "12:20 AM+1",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 2,149,000"
+  },
+  {
+    "airline": "Scoot",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/TR.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/TR.png)"
+    },
+    "departureTime": "8:30 PM",
+    "arrivalTime": "11:15 PM",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 2,181,600"
+  },
+  {
+    "airline": "Garuda Indonesia",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/GA.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/GA.png)"
+    },
+    "departureTime": "7:00 PM",
+    "arrivalTime": "9:45 PM",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 2,860,700"
+  },
+  {
+    "airline": "Batik Air",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/OD.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/OD.png)"
+    },
+    "departureTime": "10:35 PM",
+    "arrivalTime": "8:40 PM+1",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 1,892,100"
+  },
+  {
+    "airline": "Batik Air",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/OD.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/OD.png)"
+    },
+    "departureTime": "10:35 PM",
+    "arrivalTime": "9:30 AM+1",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 2,072,200"
+  },
+  {
+    "airline": "Singapore Airlines",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/SQ.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/SQ.png)"
+    },
+    "departureTime": "6:00 PM",
+    "arrivalTime": "8:55 PM",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 4,251,200"
+  },
+  {
+    "airline": "Singapore Airlines",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/SQ.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/SQ.png)"
+    },
+    "departureTime": "7:00 PM",
+    "arrivalTime": "9:55 PM",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 4,251,200"
+  },
+  {
+    "airline": "Batik Air",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/ID.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/ID.png)"
+    },
+    "departureTime": "5:50 PM",
+    "arrivalTime": "8:35 PM",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": null
+  }
+]
+CRITICAL - 2025-01-05 10:46:33 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "url(https:"
+[Method: GET, Route: url%28https:/www.gstatic.com/flights/airline_logos/70px/ID.png%29]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('url(https:/www.gstatic.com/flights/airline_logos/70px/ID.png)')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('url(https:/www.gstatic.com/flights/airline_logos/70px/ID.png)')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2025-01-05 10:46:33 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "url(https:"
+[Method: GET, Route: url%28https:/www.gstatic.com/flights/airline_logos/70px/3K.png%29]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('url(https:/www.gstatic.com/flights/airline_logos/70px/3K.png)')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('url(https:/www.gstatic.com/flights/airline_logos/70px/3K.png)')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2025-01-05 10:46:34 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "url(https:"
+[Method: GET, Route: url%28https:/www.gstatic.com/flights/airline_logos/70px/TR.png%29]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('url(https:/www.gstatic.com/flights/airline_logos/70px/TR.png)')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('url(https:/www.gstatic.com/flights/airline_logos/70px/TR.png)')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2025-01-05 10:46:34 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "url(https:"
+[Method: GET, Route: url%28https:/www.gstatic.com/flights/airline_logos/70px/GA.png%29]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('url(https:/www.gstatic.com/flights/airline_logos/70px/GA.png)')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('url(https:/www.gstatic.com/flights/airline_logos/70px/GA.png)')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2025-01-05 10:46:34 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "url(https:"
+[Method: GET, Route: url%28https:/www.gstatic.com/flights/airline_logos/70px/OD.png%29]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('url(https:/www.gstatic.com/flights/airline_logos/70px/OD.png)')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('url(https:/www.gstatic.com/flights/airline_logos/70px/OD.png)')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2025-01-05 10:46:34 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "url(https:"
+[Method: GET, Route: url%28https:/www.gstatic.com/flights/airline_logos/70px/SQ.png%29]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('url(https:/www.gstatic.com/flights/airline_logos/70px/SQ.png)')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('url(https:/www.gstatic.com/flights/airline_logos/70px/SQ.png)')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2025-01-05 11:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-05 11:01:04 --> Executing command: node "D:\NINA\itb\sANtAi\5\tst\CodeIgniter4-develop\app/ThirdParty/puppeteer/scrapeGoogleFlights.js" ""JKT"" ""SIN"" ""2025-01-05""
+DEBUG - 2025-01-05 11:01:39 --> Raw output: [
+  {
+    "airline": "Batik Air",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/ID.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/ID.png)"
+    },
+    "departureTime": "6:30 PM",
+    "arrivalTime": "9:15 PM",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 1,327,600"
+  },
+  {
+    "airline": "Jetstar",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/3K.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/3K.png)"
+    },
+    "departureTime": "9:25 PM",
+    "arrivalTime": "12:20 AM+1",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 2,149,000"
+  },
+  {
+    "airline": "Scoot",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/TR.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/TR.png)"
+    },
+    "departureTime": "8:30 PM",
+    "arrivalTime": "11:15 PM",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 2,181,600"
+  },
+  {
+    "airline": "Garuda Indonesia",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/GA.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/GA.png)"
+    },
+    "departureTime": "7:00 PM",
+    "arrivalTime": "9:45 PM",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 2,860,700"
+  },
+  {
+    "airline": "Batik Air",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/OD.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/OD.png)"
+    },
+    "departureTime": "10:35 PM",
+    "arrivalTime": "8:40 PM+1",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 1,892,100"
+  },
+  {
+    "airline": "Batik Air",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/OD.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/OD.png)"
+    },
+    "departureTime": "10:35 PM",
+    "arrivalTime": "9:30 AM+1",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 2,072,200"
+  },
+  {
+    "airline": "Singapore Airlines",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/SQ.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/SQ.png)"
+    },
+    "departureTime": "7:00 PM",
+    "arrivalTime": "9:55 PM",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 4,251,200"
+  },
+  {
+    "airline": "Thai Lion Air",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/SL.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/SL.png)"
+    },
+    "departureTime": "11:00 PM",
+    "arrivalTime": "4:30 PM+1",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 4,331,280"
+  },
+  {
+    "airline": "Batik Air",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/ID.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/ID.png)"
+    },
+    "departureTime": "6:30 PM",
+    "arrivalTime": "9:15 PM",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 1,327,600"
+  },
+  {
+    "airline": "Jetstar",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/3K.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/3K.png)"
+    },
+    "departureTime": "9:25 PM",
+    "arrivalTime": "12:20 AM+1",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 2,149,000"
+  },
+  {
+    "airline": "Scoot",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/TR.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/TR.png)"
+    },
+    "departureTime": "8:30 PM",
+    "arrivalTime": "11:15 PM",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 2,181,600"
+  },
+  {
+    "airline": "Garuda Indonesia",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/GA.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/GA.png)"
+    },
+    "departureTime": "7:00 PM",
+    "arrivalTime": "9:45 PM",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 2,860,700"
+  },
+  {
+    "airline": "Batik Air",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/OD.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/OD.png)"
+    },
+    "departureTime": "10:35 PM",
+    "arrivalTime": "8:40 PM+1",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 1,892,100"
+  },
+  {
+    "airline": "Batik Air",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/OD.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/OD.png)"
+    },
+    "departureTime": "10:35 PM",
+    "arrivalTime": "9:30 AM+1",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 2,072,200"
+  },
+  {
+    "airline": "Singapore Airlines",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/SQ.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/SQ.png)"
+    },
+    "departureTime": "7:00 PM",
+    "arrivalTime": "9:55 PM",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 4,251,200"
+  },
+  {
+    "airline": "Thai Lion Air",
+    "airlineLogo": {
+      "default": "url(https://www.gstatic.com/flights/airline_logos/70px/SL.png)",
+      "dark": "url(https://www.gstatic.com/flights/airline_logos/70px/dark/SL.png)"
+    },
+    "departureTime": "11:00 PM",
+    "arrivalTime": "4:30 PM+1",
+    "departureAirport": "CGK",
+    "arrivalAirport": "SIN",
+    "price": "IDR 4,331,280"
+  }
+]

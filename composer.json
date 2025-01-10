@@ -1,0 +1,20 @@
+{
+    "name": "user/code-igniter4-develop",
+    "autoload": {
+        "psr-4": {
+            "User\\CodeIgniter4Develop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yovankas",
+            "email": "117987991+yovankas@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "simplehtmldom/simplehtmldom": "^2.0@RC",
+        "fabpot/goutte": "^4.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,0 +1,1314 @@
+DEBUG - 2025-01-09 14:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:12:52 --> User ID from session: 1
+ERROR - 2025-01-09 14:12:52 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pl...', 0)
+#1 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php(93): CodeIgniter\Model->insert(Array)
+#8 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+#9 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+#10 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home/vol14_5/hstn.me/mseet_38049990/htdocs/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+DEBUG - 2025-01-09 14:12:52 --> Plan inserted with ID: 
+ERROR - 2025-01-09 14:12:52 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`mseet_38049990_gobuddy`.`plan_users`, CONSTRAINT `plan_users_ibfk_1` FOREIGN KEY (`plan_id`) REFERENCES `plans` (`id`) ON DELETE CASCADE) in /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pl...', 0)
+#1 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php(99): CodeIgniter\Model->insert(Array)
+#8 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+#9 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+#10 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home/vol14_5/hstn.me/mseet_38049990/htdocs/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+DEBUG - 2025-01-09 14:12:52 --> Plan user relation inserted
+DEBUG - 2025-01-09 14:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-09 14:45:13 --> ErrorException: Cannot use try without catch or finally
+[Method: GET, Route: plans]
+in APPPATH/Controllers/TravelController.php on line 85.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2025-01-09 14:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-09 14:45:32 --> ErrorException: Cannot use try without catch or finally
+[Method: GET, Route: plans]
+in APPPATH/Controllers/TravelController.php on line 85.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2025-01-09 14:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 14:46:40 --> User ID from session: 1
+ERROR - 2025-01-09 14:46:41 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pl...', 0)
+#1 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php(87): CodeIgniter\Model->insert(Array)
+#8 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+#9 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+#10 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home/vol14_5/hstn.me/mseet_38049990/htdocs/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-09 14:46:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+[Method: POST, Route: plans]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (:destination:, :start_date:, :end_date:, :activities:, :title:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/TravelController.php(87): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 14:46:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (\'Tokyo\', \'2025-01-10\', \'2025-01-11\', \'YAYAYA\', \'FUAL\', \'1\', \'2025-01-09 14:46:41\', \'2025-01-09 14:46:41\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (\'Tokyo\', \'2025-01-10\', \'2025-01-11\', \'YAYAYA\', \'FUAL\', \'1\', \'2025-01-09 14:46:41\', \'2025-01-09 14:46:41\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (:destination:, :start_date:, :end_date:, :activities:, :title:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/TravelController.php(87): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 14:46:41 --> [Caused by] mysqli_sql_exception: Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (\'Tokyo\', \'2025-01-10\', \'2025-01-11\', \'YAYAYA\', \'FUAL\', \'1\', \'2025-01-09 14:46:41\', \'2025-01-09 14:46:41\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (\'Tokyo\', \'2025-01-10\', \'2025-01-11\', \'YAYAYA\', \'FUAL\', \'1\', \'2025-01-09 14:46:41\', \'2025-01-09 14:46:41\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (\'Tokyo\', \'2025-01-10\', \'2025-01-11\', \'YAYAYA\', \'FUAL\', \'1\', \'2025-01-09 14:46:41\', \'2025-01-09 14:46:41\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (:destination:, :start_date:, :end_date:, :activities:, :title:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/TravelController.php(87): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 15:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-09 15:01:35 --> ParseError: syntax error, unexpected token "=>"
+[Method: GET, Route: plans]
+in APPPATH/Controllers/TravelController.php on line 64.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TravelController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TravelController')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\TravelController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 15:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-09 15:02:31 --> ParseError: syntax error, unexpected token "=>"
+[Method: GET, Route: plans]
+in APPPATH/Controllers/TravelController.php on line 64.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TravelController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TravelController')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\TravelController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 15:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-09 15:03:09 --> ParseError: syntax error, unexpected token "=>"
+[Method: GET, Route: plans]
+in APPPATH/Controllers/TravelController.php on line 64.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TravelController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TravelController')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\TravelController', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 15:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-09 15:04:26 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pl...', 0)
+#1 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php(81): CodeIgniter\Model->insert(Array)
+#8 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+#9 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+#10 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home/vol14_5/hstn.me/mseet_38049990/htdocs/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-09 15:04:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+[Method: POST, Route: plans]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (:destination:, :start_date:, :end_date:, :activities:, :title:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/TravelController.php(81): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:04:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:04:26\', \'2025-01-09 15:04:26\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:04:26\', \'2025-01-09 15:04:26\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (:destination:, :start_date:, :end_date:, :activities:, :title:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/TravelController.php(81): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:04:26 --> [Caused by] mysqli_sql_exception: Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:04:26\', \'2025-01-09 15:04:26\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:04:26\', \'2025-01-09 15:04:26\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:04:26\', \'2025-01-09 15:04:26\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (:destination:, :start_date:, :end_date:, :activities:, :title:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/TravelController.php(81): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 15:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-09 15:05:12 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pl...', 0)
+#1 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php(81): CodeIgniter\Model->insert(Array)
+#8 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+#9 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+#10 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home/vol14_5/hstn.me/mseet_38049990/htdocs/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-09 15:05:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+[Method: POST, Route: plans]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (:destination:, :start_date:, :end_date:, :activities:, :title:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/TravelController.php(81): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:05:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:05:12\', \'2025-01-09 15:05:12\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:05:12\', \'2025-01-09 15:05:12\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (:destination:, :start_date:, :end_date:, :activities:, :title:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/TravelController.php(81): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:05:12 --> [Caused by] mysqli_sql_exception: Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:05:12\', \'2025-01-09 15:05:12\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:05:12\', \'2025-01-09 15:05:12\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:05:12\', \'2025-01-09 15:05:12\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (:destination:, :start_date:, :end_date:, :activities:, :title:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/TravelController.php(81): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 15:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-09 15:06:33 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pl...', 0)
+#1 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php(81): CodeIgniter\Model->insert(Array)
+#8 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+#9 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+#10 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home/vol14_5/hstn.me/mseet_38049990/htdocs/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-09 15:06:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+[Method: POST, Route: plans]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (:destination:, :start_date:, :end_date:, :activities:, :title:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/TravelController.php(81): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:06:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:06:33\', \'2025-01-09 15:06:33\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:06:33\', \'2025-01-09 15:06:33\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (:destination:, :start_date:, :end_date:, :activities:, :title:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/TravelController.php(81): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:06:33 --> [Caused by] mysqli_sql_exception: Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:06:33\', \'2025-01-09 15:06:33\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:06:33\', \'2025-01-09 15:06:33\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:06:33\', \'2025-01-09 15:06:33\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`destination`, `start_date`, `end_date`, `activities`, `title`, `user_id`, `created_at`, `updated_at`) VALUES (:destination:, :start_date:, :end_date:, :activities:, :title:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/TravelController.php(81): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 15:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-09 15:08:17 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pl...', 0)
+#1 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php(82): CodeIgniter\Model->insert(Array)
+#8 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+#9 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+#10 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home/vol14_5/hstn.me/mseet_38049990/htdocs/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-09 15:08:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+[Method: POST, Route: plans]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (:title:, :start_date:, :end_date:, :destination:, :activities:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:08:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:08:17\', \'2025-01-09 15:08:17\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:08:17\', \'2025-01-09 15:08:17\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (:title:, :start_date:, :end_date:, :destination:, :activities:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:08:17 --> [Caused by] mysqli_sql_exception: Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:08:17\', \'2025-01-09 15:08:17\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:08:17\', \'2025-01-09 15:08:17\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:08:17\', \'2025-01-09 15:08:17\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (:title:, :start_date:, :end_date:, :destination:, :activities:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 15:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-09 15:08:33 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pl...', 0)
+#1 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php(82): CodeIgniter\Model->insert(Array)
+#8 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+#9 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+#10 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home/vol14_5/hstn.me/mseet_38049990/htdocs/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-09 15:08:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+[Method: POST, Route: plans]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (:title:, :start_date:, :end_date:, :destination:, :activities:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:08:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:08:33\', \'2025-01-09 15:08:33\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:08:33\', \'2025-01-09 15:08:33\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (:title:, :start_date:, :end_date:, :destination:, :activities:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:08:33 --> [Caused by] mysqli_sql_exception: Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:08:33\', \'2025-01-09 15:08:33\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:08:33\', \'2025-01-09 15:08:33\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, \'1\', \'2025-01-09 15:08:33\', \'2025-01-09 15:08:33\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (:title:, :start_date:, :end_date:, :destination:, :activities:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 15:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-09 15:08:55 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`mseet_38049990_gobuddy`.`plan_users`, CONSTRAINT `plan_users_ibfk_1` FOREIGN KEY (`plan_id`) REFERENCES `plans` (`id`) ON DELETE CASCADE) in /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pl...', 0)
+#1 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php(82): CodeIgniter\Model->insert(Array)
+#8 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+#9 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+#10 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home/vol14_5/hstn.me/mseet_38049990/htdocs/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-09 15:08:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`mseet_38049990_gobuddy`.`plan_users`, CONSTRAINT `plan_users_ibfk_1` FOREIGN KEY (`plan_id`) REFERENCES `plans` (`id`) ON DELETE CASCADE)
+[Method: POST, Route: plans]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plan_users` (`user_id`) VALUES (:user_id:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:08:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`mseet_38049990_gobuddy`.`plan_users`, CONSTRAINT `plan_users_ibfk_1` FOREIGN KEY (`plan_id`) REFERENCES `plans` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plan_users` (`user_id`) VALUES (\'1\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plan_users` (`user_id`) VALUES (\'1\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plan_users` (`user_id`) VALUES (:user_id:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:08:55 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`mseet_38049990_gobuddy`.`plan_users`, CONSTRAINT `plan_users_ibfk_1` FOREIGN KEY (`plan_id`) REFERENCES `plans` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `plan_users` (`user_id`) VALUES (\'1\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plan_users` (`user_id`) VALUES (\'1\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plan_users` (`user_id`) VALUES (\'1\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plan_users` (`user_id`) VALUES (:user_id:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 15:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-09 15:09:14 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`mseet_38049990_gobuddy`.`plan_users`, CONSTRAINT `plan_users_ibfk_1` FOREIGN KEY (`plan_id`) REFERENCES `plans` (`id`) ON DELETE CASCADE) in /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pl...', 0)
+#1 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php(82): CodeIgniter\Model->insert(Array)
+#8 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+#9 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+#10 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home/vol14_5/hstn.me/mseet_38049990/htdocs/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-09 15:09:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`mseet_38049990_gobuddy`.`plan_users`, CONSTRAINT `plan_users_ibfk_1` FOREIGN KEY (`plan_id`) REFERENCES `plans` (`id`) ON DELETE CASCADE)
+[Method: POST, Route: plans]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plan_users` (`user_id`) VALUES (:user_id:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:09:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`mseet_38049990_gobuddy`.`plan_users`, CONSTRAINT `plan_users_ibfk_1` FOREIGN KEY (`plan_id`) REFERENCES `plans` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plan_users` (`user_id`) VALUES (\'1\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plan_users` (`user_id`) VALUES (\'1\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plan_users` (`user_id`) VALUES (:user_id:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:09:14 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`mseet_38049990_gobuddy`.`plan_users`, CONSTRAINT `plan_users_ibfk_1` FOREIGN KEY (`plan_id`) REFERENCES `plans` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `plan_users` (`user_id`) VALUES (\'1\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plan_users` (`user_id`) VALUES (\'1\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plan_users` (`user_id`) VALUES (\'1\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plan_users` (`user_id`) VALUES (:user_id:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 15:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-09 15:10:30 --> mysqli_sql_exception: Column 'user_id' cannot be null in /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pl...', 0)
+#1 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php(82): CodeIgniter\Model->insert(Array)
+#8 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+#9 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+#10 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home/vol14_5/hstn.me/mseet_38049990/htdocs/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-09 15:10:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+[Method: POST, Route: plans]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plan_users` (`user_id`) VALUES (:user_id:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:10:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plan_users` (`user_id`) VALUES (NULL)')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plan_users` (`user_id`) VALUES (NULL)')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plan_users` (`user_id`) VALUES (:user_id:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:10:30 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `plan_users` (`user_id`) VALUES (NULL)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plan_users` (`user_id`) VALUES (NULL)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plan_users` (`user_id`) VALUES (NULL)')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plan_users` (`user_id`) VALUES (:user_id:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 15:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-09 15:10:53 --> mysqli_sql_exception: Column 'user_id' cannot be null in /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pl...', 0)
+#1 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php(82): CodeIgniter\Model->insert(Array)
+#8 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+#9 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+#10 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home/vol14_5/hstn.me/mseet_38049990/htdocs/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-09 15:10:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+[Method: POST, Route: plans]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plan_users` (`user_id`) VALUES (:user_id:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:10:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plan_users` (`user_id`) VALUES (NULL)')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plan_users` (`user_id`) VALUES (NULL)')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plan_users` (`user_id`) VALUES (:user_id:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:10:53 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `plan_users` (`user_id`) VALUES (NULL)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plan_users` (`user_id`) VALUES (NULL)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plan_users` (`user_id`) VALUES (NULL)')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plan_users` (`user_id`) VALUES (:user_id:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 15:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-09 15:10:53 --> mysqli_sql_exception: Column 'user_id' cannot be null in /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pl...', 0)
+#1 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php(82): CodeIgniter\Model->insert(Array)
+#8 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+#9 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+#10 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /home/vol14_5/hstn.me/mseet_38049990/htdocs/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-01-09 15:10:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+[Method: POST, Route: plans]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plan_users` (`user_id`) VALUES (:user_id:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:10:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plan_users` (`user_id`) VALUES (NULL)')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plan_users` (`user_id`) VALUES (NULL)')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plan_users` (`user_id`) VALUES (:user_id:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:10:53 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `plan_users` (`user_id`) VALUES (NULL)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plan_users` (`user_id`) VALUES (NULL)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plan_users` (`user_id`) VALUES (NULL)')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plan_users` (`user_id`) VALUES (:user_id:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/TravelController.php(82): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 15:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-09 15:12:44 --> mysqli_sql_exception: Column 'user_id' cannot be null in /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pl...', 0)
+#1 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(800): CodeIgniter\BaseModel->insert(Array, false)
+#7 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(750): CodeIgniter\Model->insert(Array, false)
+#8 /home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php(80): CodeIgniter\BaseModel->save(Array)
+#9 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+#10 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+#11 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /home/vol14_5/hstn.me/mseet_38049990/htdocs/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-01-09 15:12:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+[Method: POST, Route: plans]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plan_users` (`user_id`) VALUES (:user_id:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH/Controllers/TravelController.php(80): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:12:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plan_users` (`user_id`) VALUES (NULL)')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plan_users` (`user_id`) VALUES (NULL)')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plan_users` (`user_id`) VALUES (:user_id:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH/Controllers/TravelController.php(80): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:12:44 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `plan_users` (`user_id`) VALUES (NULL)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plan_users` (`user_id`) VALUES (NULL)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plan_users` (`user_id`) VALUES (NULL)')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plan_users` (`user_id`) VALUES (:user_id:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH/Controllers/TravelController.php(80): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 15:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-09 15:14:19 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pl...', 0)
+#1 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(800): CodeIgniter\BaseModel->insert(Array, false)
+#7 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(750): CodeIgniter\Model->insert(Array, false)
+#8 /home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php(80): CodeIgniter\BaseModel->save(Array)
+#9 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+#10 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+#11 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /home/vol14_5/hstn.me/mseet_38049990/htdocs/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-01-09 15:14:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+[Method: POST, Route: plans]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (:title:, :start_date:, :end_date:, :destination:, :activities:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH/Controllers/TravelController.php(80): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:14:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, \'2025-01-09 15:14:19\', \'2025-01-09 15:14:19\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, \'2025-01-09 15:14:19\', \'2025-01-09 15:14:19\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (:title:, :start_date:, :end_date:, :destination:, :activities:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH/Controllers/TravelController.php(80): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:14:19 --> [Caused by] mysqli_sql_exception: Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, \'2025-01-09 15:14:19\', \'2025-01-09 15:14:19\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, \'2025-01-09 15:14:19\', \'2025-01-09 15:14:19\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, \'2025-01-09 15:14:19\', \'2025-01-09 15:14:19\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (:title:, :start_date:, :end_date:, :destination:, :activities:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH/Controllers/TravelController.php(80): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 15:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-09 15:30:54 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pl...', 0)
+#1 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(800): CodeIgniter\BaseModel->insert(Array, false)
+#7 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(750): CodeIgniter\Model->insert(Array, false)
+#8 /home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php(80): CodeIgniter\BaseModel->save(Array)
+#9 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+#10 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+#11 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /home/vol14_5/hstn.me/mseet_38049990/htdocs/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-01-09 15:30:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+[Method: POST, Route: plans]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (:title:, :start_date:, :end_date:, :destination:, :activities:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH/Controllers/TravelController.php(80): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:30:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, \'2025-01-09 15:30:54\', \'2025-01-09 15:30:54\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, \'2025-01-09 15:30:54\', \'2025-01-09 15:30:54\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (:title:, :start_date:, :end_date:, :destination:, :activities:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH/Controllers/TravelController.php(80): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:30:54 --> [Caused by] mysqli_sql_exception: Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, \'2025-01-09 15:30:54\', \'2025-01-09 15:30:54\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, \'2025-01-09 15:30:54\', \'2025-01-09 15:30:54\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, \'2025-01-09 15:30:54\', \'2025-01-09 15:30:54\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (:title:, :start_date:, :end_date:, :destination:, :activities:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH/Controllers/TravelController.php(80): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 15:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-09 15:33:37 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pl...', 0)
+#1 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(800): CodeIgniter\BaseModel->insert(Array, false)
+#7 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(750): CodeIgniter\Model->insert(Array, false)
+#8 /home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php(80): CodeIgniter\BaseModel->save(Array)
+#9 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+#10 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+#11 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /home/vol14_5/hstn.me/mseet_38049990/htdocs/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-01-09 15:33:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+[Method: POST, Route: plans]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (:title:, :start_date:, :end_date:, :destination:, :activities:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH/Controllers/TravelController.php(80): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:33:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, \'2025-01-09 15:33:37\', \'2025-01-09 15:33:37\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, \'2025-01-09 15:33:37\', \'2025-01-09 15:33:37\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (:title:, :start_date:, :end_date:, :destination:, :activities:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH/Controllers/TravelController.php(80): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:33:37 --> [Caused by] mysqli_sql_exception: Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, \'2025-01-09 15:33:37\', \'2025-01-09 15:33:37\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, \'2025-01-09 15:33:37\', \'2025-01-09 15:33:37\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, \'2025-01-09 15:33:37\', \'2025-01-09 15:33:37\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (:title:, :start_date:, :end_date:, :destination:, :activities:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH/Controllers/TravelController.php(80): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 15:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-09 15:39:12 --> mysqli_sql_exception: Column 'start_date' cannot be null in /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pl...', 0)
+#1 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Model.php(800): CodeIgniter\BaseModel->insert(Array, false)
+#7 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/BaseModel.php(750): CodeIgniter\Model->insert(Array, false)
+#8 /home/vol14_5/hstn.me/mseet_38049990/htdocs/app/Controllers/TravelController.php(80): CodeIgniter\BaseModel->save(Array)
+#9 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+#10 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+#11 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 /home/vol14_5/hstn.me/mseet_38049990/htdocs/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 /home/vol14_5/hstn.me/mseet_38049990/htdocs/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2025-01-09 15:39:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'start_date' cannot be null
+[Method: POST, Route: plans]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (:title:, :start_date:, :end_date:, :destination:, :activities:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH/Controllers/TravelController.php(80): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:39:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'start_date' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, \'2025-01-09 15:39:12\', \'2025-01-09 15:39:12\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, \'2025-01-09 15:39:12\', \'2025-01-09 15:39:12\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (:title:, :start_date:, :end_date:, :destination:, :activities:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH/Controllers/TravelController.php(80): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 15:39:12 --> [Caused by] mysqli_sql_exception: Column 'start_date' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, \'2025-01-09 15:39:12\', \'2025-01-09 15:39:12\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, \'2025-01-09 15:39:12\', \'2025-01-09 15:39:12\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, \'2025-01-09 15:39:12\', \'2025-01-09 15:39:12\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plans` (`title`, `start_date`, `end_date`, `destination`, `activities`, `user_id`, `created_at`, `updated_at`) VALUES (:title:, :start_date:, :end_date:, :destination:, :activities:, :user_id:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH/BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH/Controllers/TravelController.php(80): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->createPlan()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 15:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:40:31 --> User ID from session: 1
+DEBUG - 2025-01-09 15:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:58:30 --> Request data: {"type":"hotel","provider":"Marriott","booking_reference":"SJHSJ08","date":"2025-01-10","time":"22:59","details":"JKDJSKDJKLSDJKLS"}
+DEBUG - 2025-01-09 15:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 15:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-09 16:01:30 --> ParseError: syntax error, unexpected identifier "id", expecting ")"
+[Method: GET, Route: plans/edit/2]
+in APPPATH/Views/plans/edit.php on line 7.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('plans/edit', [], true)
+ 3 APPPATH/Controllers/TravelController.php(405): view('plans/edit', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->editPlan('2')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 16:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-09 16:12:35 --> ParseError: syntax error, unexpected double-quoted string " class=", expecting "," or ";"
+[Method: GET, Route: plans/view/2]
+in APPPATH/Views/plans/layouts/main.php on line 223.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('plans/layouts/main', [], true)
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('plans/details', [], true)
+ 4 APPPATH/Controllers/TravelController.php(221): view('plans/details', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->getPlan('2')
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 16:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 16:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:59:37 --> User ID from session: 3
+DEBUG - 2025-01-09 17:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 17:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-09 18:41:21 --> ParseError: syntax error, unexpected token "<", expecting end of file
+[Method: GET, Route: plans/edit/2]
+in APPPATH/Views/plans/edit.php on line 5.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('plans/edit', [], true)
+ 3 APPPATH/Controllers/TravelController.php(405): view('plans/edit', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TravelController->editPlan('2')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-09 18:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-09 18:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-09 18:49:32 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: plans/edit/2]
+in APPPATH/Controllers/TravelController.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2025-01-09 18:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

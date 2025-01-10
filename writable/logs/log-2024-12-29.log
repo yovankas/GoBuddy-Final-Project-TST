@@ -1,0 +1,3232 @@
+DEBUG - 2024-12-29 12:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 12:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 12:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 12:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 12:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 13:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 13:38:10 --> Executing command: node "D:\NINA\itb\sANtAi\5\tst\CodeIgniter4-develop\app/ThirdParty/puppeteer/scrapeGoogleHotels.js" ""Jogja"" ""2024-12-30"" ""2024-12-31""
+DEBUG - 2024-12-29 13:40:50 --> Raw output: Navigating to Google Travel...
+Clicking Hotels tab...
+Activating search box...
+Clearing existing search...
+Typing destination: Jogja
+Setting dates...
+Error setting dates: TimeoutError: Waiting for selector `input[placeholder="Check in"]` failed: Waiting failed: 30000ms exceeded
+    at new WaitTask (D:\NINA\itb\sANtAi\5\tst\CodeIgniter4-develop\app\ThirdParty\puppeteer\node_modules\puppeteer-core\lib\cjs\puppeteer\common\WaitTask.js:48:34)
+    at IsolatedWorld.waitForFunction (D:\NINA\itb\sANtAi\5\tst\CodeIgniter4-develop\app\ThirdParty\puppeteer\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Realm.js:25:26)
+    at CSSQueryHandler.waitFor (D:\NINA\itb\sANtAi\5\tst\CodeIgniter4-develop\app\ThirdParty\puppeteer\node_modules\puppeteer-core\lib\cjs\puppeteer\common\QueryHandler.js:178:95)
+    at async CdpFrame.waitForSelector (D:\NINA\itb\sANtAi\5\tst\CodeIgniter4-develop\app\ThirdParty\puppeteer\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Frame.js:532:21)
+    at async CdpPage.waitForSelector (D:\NINA\itb\sANtAi\5\tst\CodeIgniter4-develop\app\ThirdParty\puppeteer\node_modules\puppeteer-core\lib\cjs\puppeteer\api\Page.js:1373:20)
+    at async scrapeHotels (D:\NINA\itb\sANtAi\5\tst\CodeIgniter4-develop\app\ThirdParty\puppeteer\scrapeGoogleHotels.js:85:35)
+Found 10 hotel links
+Processing hotel 1/10
+Successfully extracted details: {
+  name: 'Pandanaran Prawirotaman Yogyakarta',
+  rating: 4.8,
+  reviewCount: '26.8K',
+  address: '•',
+  phoneNumber: 'Jl. Prawirotaman No.38, Brontokusuman, Kec. Mergangsan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55153',
+  price: 'Rp 257.660',
+  amenities: [
+    'Breakfast',
+    'Breakfast ($)',
+    'Breakfast',
+    'Free breakfast',
+    'Breakfast',
+    'Breakfast',
+    'Free breakfast',
+    'Breakfast',
+    'Free Wi-Fi',
+    'Free breakfast',
+    'Free breakfast',
+    'Breakfast ($)',
+    'Breakfast ($)',
+    'Breakfast ($)',
+    'Free Wi-Fi',
+    'Breakfast ($)',
+    'Free breakfast',
+    'Breakfast',
+    'Airport shuttle',
+    'Air conditioning',
+    'Pool',
+    'Spa',
+    'Wi-Fi',
+    'Parking',
+    'Pool',
+    'Spa',
+    'Wi-Fi',
+    'Parking',
+    'Internet',
+    'Wi-Fi',
+    'Wi-Fi in public areas',
+    'Public internet workstation',
+    'Policies & payments',
+    'Credit cards',
+    'Debit cards',
+    'Cash',
+    'Children',
+    'Kid-friendly',
+    'Pools',
+    'Outdoor pool',
+    'No hot tub',
+    'Wellness',
+    'No fitness center',
+    'Massage',
+    'Spa',
+    'Doctor on call',
+    'Business & events',
+    'Meeting rooms',
+    'Pets',
+    'No pets',
+    'Rooms',
+    'Air conditioning',
+    'Food & drink',
+    'Restaurant',
+    'Bar',
+    'Room service',
+    'Breakfast',
+    'Breakfast buffet',
+    'Services',
+    'Front desk',
+    'Baggage storage',
+    'Concierge',
+    'Full-service laundry',
+    'Elevator',
+    'Wake up calls',
+    'Housekeeping',
+    'Parking & transportation',
+    'Parking',
+    'Self parking',
+    'Valet parking',
+    'Airport shuttle',
+    'Accessibility',
+    'Accessible',
+    'Accessible parking',
+    'Accessible elevator',
+    'Languages spoken',
+    'English',
+    'Indonesian'
+  ],
+  images: [
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipNtWJZzFxTy_106ZxxI9aoYP-Of2sa81-_X85MZ=w252-h168-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipNtWJZzFxTy_106ZxxI9aoYP-Of2sa81-_X85MZ=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipNtWJZzFxTy_106ZxxI9aoYP-Of2sa81-_X85MZ=w252-h168-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipNtWJZzFxTy_106ZxxI9aoYP-Of2sa81-_X85MZ=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipO2h00REysqWI3N_JKPmjYk9mezAR65pwnLr7n7=w252-h168-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipO2h00REysqWI3N_JKPmjYk9mezAR65pwnLr7n7=w287-h192-n-k-rw-no-v1'
+    }
+  ]
+}
+Processing hotel 2/10
+Successfully extracted details: {
+  name: 'LPP Convention Hotel',
+  rating: 4.8,
+  reviewCount: '26.8K',
+  address: '•',
+  phoneNumber: 'Jl. Demangan Baru No.8, Demangan Baru, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281',
+  price: 'Rp 193.161',
+  amenities: [
+    'Breakfast',
+    'Breakfast ($)',
+    'Breakfast',
+    'Free breakfast',
+    'Breakfast',
+    'Breakfast',
+    'Free breakfast',
+    'Breakfast',
+    'Free Wi-Fi',
+    'Free breakfast',
+    'Free breakfast',
+    'Breakfast ($)',
+    'Breakfast ($)',
+    'Breakfast ($)',
+    'Free Wi-Fi',
+    'Breakfast ($)',
+    'Free breakfast',
+    'Breakfast',
+    'Airport shuttle',
+    'Air conditioning',
+    'Spa',
+    'Parking',
+    'Wi-Fi',
+    'Air conditioning',
+    'Spa',
+    'Parking',
+    'Wi-Fi',
+    'Air conditioning',
+    'Internet',
+    'Wi-Fi',
+    'Wi-Fi in public areas',
+    'Policies & payments',
+    'Credit cards',
+    'Debit cards',
+    'NFC mobile payments',
+    'Cash',
+    'Children',
+    'Kid-friendly',
+    'Pools',
+    'No pools',
+    'No hot tub',
+    'Parking & transportation',
+    'Parking',
+    'Self parking',
+    'Airport shuttle',
+    'Car rental onsite',
+    'Local shuttle',
+    'Business & events',
+    'Business center',
+    'Meeting rooms',
+    'Languages spoken',
+    'English',
+    'Indonesian',
+    'Food & drink',
+    'Restaurant',
+    'Table service',
+    'Buffet dinner',
+    'Room service',
+    'Breakfast',
+    'Breakfast buffet',
+    'Services',
+    'Front desk',
+    'Baggage storage',
+    'Concierge',
+    'Convenience store',
+    'Full-service laundry',
+    'Wake up calls',
+    'Gift shop',
+    'Wellness',
+    'No fitness center',
+    'Spa',
+    'Accessibility',
+    'Accessible',
+    'Accessible parking',
+    'Pets',
+    'No pets',
+    'Rooms',
+    'Air conditioning',
+    'Bathrooms',
+    'Private bathroom',
+    'Energy efficiency',
+    'Energy-efficient lighting'
+  ],
+  images: [
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipO4pCQSoXVjfYTe0zQx1O7W55jxUT_ElnjCZEmR=w252-h168-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipO4pCQSoXVjfYTe0zQx1O7W55jxUT_ElnjCZEmR=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipPY840iC8dVhmd0ggxhXpf1UsIGr99eMVn9pshX=w252-h167-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipPY840iC8dVhmd0ggxhXpf1UsIGr99eMVn9pshX=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipNOH5qIQ4vWxe3iQLJOQEa_2_ikqLRwitvCfvvo=w252-h168-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipNOH5qIQ4vWxe3iQLJOQEa_2_ikqLRwitvCfvvo=w287-h192-n-k-rw-no-v1'
+    }
+  ]
+}
+Processing hotel 3/10
+Successfully extracted details: {
+  name: 'Emersia Malioboro Hotel',
+  rating: 4.8,
+  reviewCount: '26.8K',
+  address: '•',
+  phoneNumber: 'Jl. Gowongan Kidul No.34, Gowongan, Kec. Jetis, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55232',
+  price: 'Rp 388.609',
+  amenities: [
+    'Breakfast',
+    'Breakfast ($)',
+    'Breakfast',
+    'Free breakfast',
+    'Breakfast',
+    'Breakfast',
+    'Free breakfast',
+    'Breakfast',
+    'Free Wi-Fi',
+    'Free breakfast',
+    'Free breakfast',
+    'Breakfast ($)',
+    'Breakfast ($)',
+    'Breakfast ($)',
+    'Free Wi-Fi',
+    'Breakfast ($)',
+    'Free breakfast',
+    'Breakfast',
+    'Airport shuttle',
+    'Air conditioning',
+    'Pool',
+    'Wi-Fi',
+    'Parking',
+    'Air conditioning',
+    'Pool',
+    'Wi-Fi',
+    'Parking',
+    'Air conditioning',
+    'Internet',
+    'Wi-Fi',
+    'Services',
+    'Front desk',
+    'Full-service laundry',
+    'Pools',
+    'Outdoor pool',
+    'No hot tub',
+    'Wellness',
+    'No fitness center',
+    'No spa',
+    'Rooms',
+    'Air conditioning',
+    'Coffee maker',
+    'Food & drink',
+    'Restaurant',
+    'Room service',
+    'Breakfast',
+    'Breakfast buffet',
+    'Children',
+    'Kid-friendly',
+    'Parking & transportation',
+    'Parking',
+    'Local shuttle',
+    'Pets',
+    'No pets',
+    'Bathrooms',
+    'Private bathroom'
+  ],
+  images: [
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipNJBQz7qfB9grGhF6MR93ahLcYcJWQ7kQB2Mlbn=w252-h168-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipNJBQz7qfB9grGhF6MR93ahLcYcJWQ7kQB2Mlbn=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh3.googleusercontent.com/gvs/AG4uZQkKP-cbUMOA--c5xHmVMlhpEJSQOydGf9HZfJh5LORGJSOH2K9j-CJ9wZmFlxSBiBkXaaQBgJ3Nz1kL9DNIUNA28fbU4mA4G_5H',
+      original: 'https://lh3.googleusercontent.com/gvs/AG4uZQkKP-cbUMOA--c5xHmVMlhpEJSQOydGf9HZfJh5LORGJSOH2K9j-CJ9wZmFlxSBiBkXaaQBgJ3Nz1kL9DNIUNA28fbU4mA4G_5H=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipO9SrX-o2w322L2yrbm_8tJRa-UxFf0yP4aQ2-I=w252-h168-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipO9SrX-o2w322L2yrbm_8tJRa-UxFf0yP4aQ2-I=w287-h192-n-k-rw-no-v1'
+    }
+  ]
+}
+Processing hotel 4/10
+Successfully extracted details: {
+  name: 'favehotel Kusumanegara',
+  rating: 4.8,
+  reviewCount: '26.8K',
+  address: '•',
+  phoneNumber: 'Jl. Kusumanegara No.91, Muja Muju, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55165',
+  price: 'Rp 279.071',
+  amenities: [
+    'Breakfast',
+    'Breakfast ($)',
+    'Breakfast',
+    'Free breakfast',
+    'Breakfast',
+    'Breakfast',
+    'Free breakfast',
+    'Breakfast',
+    'Free Wi-Fi',
+    'Free breakfast',
+    'Free breakfast',
+    'Breakfast ($)',
+    'Breakfast ($)',
+    'Breakfast ($)',
+    'Free Wi-Fi',
+    'Breakfast ($)',
+    'Free breakfast',
+    'Breakfast',
+    'Airport shuttle',
+    'Air conditioning',
+    'Pool',
+    'Breakfast',
+    'Wi-Fi',
+    'Parking',
+    'Pool',
+    'Breakfast',
+    'Wi-Fi',
+    'Parking',
+    'Internet',
+    'Wi-Fi',
+    'Services',
+    'Front desk',
+    'Full-service laundry',
+    'Pools',
+    'Outdoor pool',
+    'No hot tub',
+    'Wellness',
+    'No fitness center',
+    'Pets',
+    'No pets',
+    'Food & drink',
+    'Restaurant',
+    'Room service',
+    'Breakfast',
+    'Breakfast buffet',
+    'Children',
+    'Kid-friendly',
+    'Parking & transportation',
+    'Parking',
+    'Airport shuttle',
+    'Accessibility',
+    'Accessible',
+    'Rooms',
+    'Air conditioning'
+  ],
+  images: [
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipN9RmxV4dI5zYmDfYFBQwW6Zg8wY7axdf-IcNAF=w252-h253-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipN9RmxV4dI5zYmDfYFBQwW6Zg8wY7axdf-IcNAF=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipMqvoqqR4HFcjTrXa12k3K66bG2N6ViUECeseN_=w252-h167-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipMqvoqqR4HFcjTrXa12k3K66bG2N6ViUECeseN_=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipM9I0jVM4X2WSbJXCObyR4hvRnQX3DMP2O5AaeP=w252-h167-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipM9I0jVM4X2WSbJXCObyR4hvRnQX3DMP2O5AaeP=w287-h192-n-k-rw-no-v1'
+    }
+  ]
+}
+Processing hotel 5/10
+Successfully extracted details: {
+  name: 'Forriz Hotel Yogyakarta',
+  rating: 4.8,
+  reviewCount: '26.8K',
+  address: '•',
+  phoneNumber: 'Jl. HOS Cokroaminoto No.60, Pakuncen, Wirobrajan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55253',
+  price: 'Rp 355.099',
+  amenities: [
+    'Breakfast',
+    'Breakfast ($)',
+    'Breakfast',
+    'Free breakfast',
+    'Breakfast',
+    'Breakfast',
+    'Free breakfast',
+    'Breakfast',
+    'Free Wi-Fi',
+    'Free breakfast',
+    'Free breakfast',
+    'Breakfast ($)',
+    'Breakfast ($)',
+    'Breakfast ($)',
+    'Free Wi-Fi',
+    'Breakfast ($)',
+    'Free breakfast',
+    'Breakfast',
+    'Airport shuttle',
+    'Air conditioning',
+    'Pool',
+    'Spa',
+    'Wi-Fi',
+    'Parking',
+    'Pool',
+    'Spa',
+    'Wi-Fi',
+    'Parking',
+    'Internet',
+    'Wi-Fi',
+    'Wi-Fi in public areas',
+    'Public internet workstation',
+    'Services',
+    'Front desk',
+    'Full-service laundry',
+    'Pools',
+    'Outdoor pool',
+    'No hot tub',
+    'Wellness',
+    'Fitness center',
+    'Spa',
+    'Pets',
+    'No pets',
+    'Rooms',
+    'Air conditioning',
+    'Food & drink',
+    'Restaurant',
+    'Room service',
+    'Breakfast',
+    'Breakfast buffet',
+    'Children',
+    'Kid-friendly',
+    'Parking & transportation',
+    'Parking',
+    'Airport shuttle',
+    'Accessibility',
+    'Accessible',
+    'Business & events',
+    'Business center',
+    'Meeting rooms'
+  ],
+  images: [
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipPyZ1xHOAn6-RDvIcA7BzkZ0XBbLFbVJhZ5k6PL=w252-h336-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipPyZ1xHOAn6-RDvIcA7BzkZ0XBbLFbVJhZ5k6PL=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://images.trvl-media.com/lodging/20000000/19270000/19265900/19265876/c7d4dec4_z.jpg',
+      original: 'https://images.trvl-media.com/lodging/20000000/19270000/19265900/19265876/c7d4dec4_z.jpg'
+    },
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/proxy/yo8DDIrOrSJ9zqcKs8BFNUuV9fdKEIFw9ZnQBkMnOYiEY6_MEHNqT-t-__hjdOQkOe11rm5rCnXDpZTe3ucWL_f1uS85go9Hwd3AGweRnFmWloGhSUdKSui6Krpfpr66_g3whqejFuB8naXtnq4yVUYcAw91Kw=w252-h168-k-no',
+      original: '//lh3.googleusercontent.com/proxy/yo8DDIrOrSJ9zqcKs8BFNUuV9fdKEIFw9ZnQBkMnOYiEY6_MEHNqT-t-__hjdOQkOe11rm5rCnXDpZTe3ucWL_f1uS85go9Hwd3AGweRnFmWloGhSUdKSui6Krpfpr66_g3whqejFuB8naXtnq4yVUYcAw91Kw=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipPQvqfqeuH9TLoAYlPCh7NffmdCgUVb2_oWrU62=s367-w367-h248-n-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipPQvqfqeuH9TLoAYlPCh7NffmdCgUVb2_oWrU62=w367-h248-n-k-rw-no-v1'
+    }
+  ]
+}
+Processing hotel 6/10
+Successfully extracted details: {
+  name: 'Cavinton Hotel Yogyakarta by Tritama Hospitality',
+  rating: 4.4,
+  reviewCount: '4.4K',
+  address: '•',
+  phoneNumber: 'Jl. Letjen Suprapto No.1, Ngampilan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55261',
+  price: 'Rp 447.702',
+  amenities: [
+    'Breakfast',
+    'Breakfast ($)',
+    'Breakfast',
+    'Free breakfast',
+    'Breakfast',
+    'Breakfast',
+    'Free breakfast',
+    'Breakfast',
+    'Free Wi-Fi',
+    'Free breakfast',
+    'Free breakfast',
+    'Breakfast ($)',
+    'Breakfast ($)',
+    'Breakfast ($)',
+    'Free Wi-Fi',
+    'Breakfast ($)',
+    'Free breakfast',
+    'Breakfast',
+    'Airport shuttle',
+    'Air conditioning',
+    'Pool',
+    'Spa',
+    'Wi-Fi',
+    'Parking',
+    'Pool',
+    'Spa',
+    'Wi-Fi',
+    'Parking',
+    'Internet',
+    'Wi-Fi',
+    'Policies & payments',
+    'Credit cards',
+    'Debit cards',
+    'Cash',
+    'Children',
+    'Kid-friendly',
+    'Parking & transportation',
+    'Parking',
+    'Airport shuttle',
+    'Wellness',
+    'Fitness center',
+    'Spa',
+    'Pets',
+    'No pets',
+    'Food & drink',
+    'Restaurant',
+    'Room service',
+    'Breakfast',
+    'Breakfast buffet',
+    'Services',
+    'Front desk',
+    'Full-service laundry',
+    'Pools',
+    'Pool',
+    'Outdoor pool',
+    'Hot tub',
+    'Accessibility',
+    'Accessible',
+    'Business & events',
+    'Business center',
+    'Rooms',
+    'Air conditioning'
+  ],
+  images: [
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipPwfDkMqvKVf7MvyUmbtq--PMGY1RoDVknWj7f2=w252-h168-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipPwfDkMqvKVf7MvyUmbtq--PMGY1RoDVknWj7f2=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipNyB3I5nOxdIigVnp2ahz-F8QlS1V4nOq4xkrp_=w252-h189-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipNyB3I5nOxdIigVnp2ahz-F8QlS1V4nOq4xkrp_=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipO4gJRae70i2A6nqsRLqPPi0skw1agiRh_ZUI0h=w252-h189-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipO4gJRae70i2A6nqsRLqPPi0skw1agiRh_ZUI0h=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipMzGPVaP17qVa9oQVkMr1dyIU4j2-nVP9dOYf1E=s367-w367-h248-n-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipMzGPVaP17qVa9oQVkMr1dyIU4j2-nVP9dOYf1E=w367-h248-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipNKUXchZei6nNDHeW_aa3_j_3wXQr2B-FGOjM6w=s367-w367-h248-n-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipNKUXchZei6nNDHeW_aa3_j_3wXQr2B-FGOjM6w=w367-h248-n-k-rw-no-v1'
+    }
+  ]
+}
+Processing hotel 7/10
+Successfully extracted details: {
+  name: 'Zest Hotel Yogyakarta',
+  rating: 4.1,
+  reviewCount: '4.1K',
+  address: '•',
+  phoneNumber: 'Jl. Gajah Mada No.28, Purwokinanti, Pakualaman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55112',
+  price: 'Rp 280.486',
+  amenities: [
+    'Breakfast',
+    'Breakfast ($)',
+    'Breakfast',
+    'Free breakfast',
+    'Breakfast',
+    'Breakfast',
+    'Free breakfast',
+    'Breakfast',
+    'Free Wi-Fi',
+    'Free breakfast',
+    'Free breakfast',
+    'Breakfast ($)',
+    'Breakfast ($)',
+    'Breakfast ($)',
+    'Free Wi-Fi',
+    'Breakfast ($)',
+    'Free breakfast',
+    'Breakfast',
+    'Airport shuttle',
+    'Air conditioning',
+    'Pool',
+    'Breakfast',
+    'Wi-Fi',
+    'Parking',
+    'Pool',
+    'Breakfast',
+    'Wi-Fi',
+    'Parking',
+    'Internet',
+    'Wi-Fi',
+    'Policies & payments',
+    'Credit cards',
+    'Debit cards',
+    'Cash',
+    'Children',
+    'Kid-friendly',
+    'Parking & transportation',
+    'Parking',
+    'Airport shuttle',
+    'Accessibility',
+    'Accessible',
+    'Rooms',
+    'Air conditioning',
+    'Food & drink',
+    'Restaurant',
+    'Room service',
+    'Breakfast',
+    'Breakfast buffet',
+    'Services',
+    'Front desk',
+    'Full-service laundry',
+    'Pools',
+    'Indoor pool',
+    'No hot tub',
+    'Wellness',
+    'No fitness center',
+    'Pets',
+    'No pets'
+  ],
+  images: [
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipMaDjEhN3JWTlNKQQTGpZXnuTsLd-BqoldCpTNL=w252-h206-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipMaDjEhN3JWTlNKQQTGpZXnuTsLd-BqoldCpTNL=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipP7s7MaMsCPc1IFv4EwjXrcA6St6ehjgYAH12SV=w252-h170-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipP7s7MaMsCPc1IFv4EwjXrcA6St6ehjgYAH12SV=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipNN1wtUtTZFXLcnZOIdSi_m4iod4sMzVu0Mx_kV=w252-h168-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipNN1wtUtTZFXLcnZOIdSi_m4iod4sMzVu0Mx_kV=w287-h192-n-k-rw-no-v1'
+    }
+  ]
+}
+Processing hotel 8/10
+Successfully extracted details: {
+  name: 'Malioboro Prime Hotel Yogyakarta',
+  rating: 4.1,
+  reviewCount: '4.1K',
+  address: '•',
+  phoneNumber: 'Jl. Ps. Kembang No.9, Sosromenduran, Gedong Tengen, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55271',
+  price: 'Rp 412.553',
+  amenities: [
+    'Breakfast',
+    'Breakfast ($)',
+    'Breakfast',
+    'Free breakfast',
+    'Breakfast',
+    'Breakfast',
+    'Free breakfast',
+    'Breakfast',
+    'Free Wi-Fi',
+    'Free breakfast',
+    'Free breakfast',
+    'Breakfast ($)',
+    'Breakfast ($)',
+    'Breakfast ($)',
+    'Free Wi-Fi',
+    'Breakfast ($)',
+    'Free breakfast',
+    'Breakfast',
+    'Airport shuttle',
+    'Air conditioning',
+    'Wi-Fi',
+    'Parking',
+    'Air conditioning',
+    'Breakfast',
+    'Wi-Fi',
+    'Parking',
+    'Air conditioning',
+    'Breakfast',
+    'Internet',
+    'Wi-Fi',
+    'Wi-Fi in public areas',
+    'Policies & payments',
+    'Smoke-free property',
+    'Credit cards',
+    'Debit cards',
+    'Cash',
+    'Children',
+    'Kid-friendly',
+    'Pools',
+    'No pools',
+    'No hot tub',
+    'Wellness',
+    'No fitness center',
+    'Massage',
+    'No spa',
+    'Business & events',
+    'Meeting rooms',
+    'Languages spoken',
+    'English',
+    'Indonesian',
+    'Bathrooms',
+    'Private bathroom',
+    'Shower',
+    'Food & drink',
+    'Restaurant',
+    'Room service',
+    'Breakfast',
+    'Breakfast buffet',
+    'Activities',
+    'Bicycle rental',
+    'Services',
+    'Front desk',
+    'Baggage storage',
+    'Full-service laundry',
+    'Elevator',
+    'Wake up calls',
+    'Parking & transportation',
+    'Parking',
+    'Self parking',
+    'Valet parking',
+    'Accessibility',
+    'Accessible',
+    'Pets',
+    'No pets',
+    'Rooms',
+    'Air conditioning',
+    'Refrigerator in some rooms',
+    'Coffee maker'
+  ],
+  images: [
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipMu6y1RqTsT8xVqXSoLHvB4F-qB2AHhgzoQx17Y=w252-h378-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipMu6y1RqTsT8xVqXSoLHvB4F-qB2AHhgzoQx17Y=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipMesPnAlIw05QB75aZiuDXNJqpq_4x-lT-cDL44=w252-h168-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipMesPnAlIw05QB75aZiuDXNJqpq_4x-lT-cDL44=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipMJ5psO6zGghyr2woHKAGoQDIKTJXI-yalCMJft=w252-h168-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipMJ5psO6zGghyr2woHKAGoQDIKTJXI-yalCMJft=w287-h192-n-k-rw-no-v1'
+    }
+  ]
+}
+Processing hotel 9/10
+Successfully extracted details: {
+  name: 'Wonderloft Hostel Jogja',
+  rating: 4.6,
+  reviewCount: '10.8K',
+  address: null,
+  phoneNumber: 'Tirtodipuran St No.47, Mantrijeron, Yogyakarta City, Special Region of Yogyakarta 55143',
+  price: 'Rp 171.237',
+  amenities: [
+    'Breakfast',
+    'Breakfast ($)',
+    'Breakfast',
+    'Free breakfast',
+    'Breakfast',
+    'Breakfast',
+    'Free breakfast',
+    'Breakfast',
+    'Free Wi-Fi',
+    'Free breakfast',
+    'Free breakfast',
+    'Breakfast ($)',
+    'Breakfast ($)',
+    'Breakfast ($)',
+    'Free Wi-Fi',
+    'Breakfast ($)',
+    'Free breakfast',
+    'Breakfast',
+    'Airport shuttle',
+    'Air conditioning',
+    'Wi-Fi',
+    'Air conditioning',
+    'Airport shuttle',
+    'Restaurant',
+    'Wi-Fi',
+    'Air conditioning',
+    'Airport shuttle',
+    'Restaurant',
+    'Internet',
+    'Wi-Fi',
+    'Services',
+    'Front desk',
+    'Parking & transportation',
+    'Airport shuttle',
+    'Pets',
+    'No pets',
+    'Food & drink',
+    'Restaurant',
+    'Pools',
+    'No pools',
+    'Hot tub',
+    'Wellness',
+    'No fitness center',
+    'No spa',
+    'Rooms',
+    'Air conditioning'
+  ],
+  images: [
+    {
+      thumbnail: 'https://lh4.googleusercontent.com/proxy/v0Y5JPQK0N2iVY50lCqFpzgtZQdyfEPvq1JDtmKCkZStQdPV2ZnYreAJL_puofj2i02H-gpjm_Loh6ZXeO7oBikGtWczYbhLNngUaU0bZCV4ZB-Ed2cj53NkgEJXZbhR2Mn22F1XIQi-rdfKDjqoSm6n9XofzSo=w252-h168-k-no',
+      original: '//lh3.googleusercontent.com/proxy/v0Y5JPQK0N2iVY50lCqFpzgtZQdyfEPvq1JDtmKCkZStQdPV2ZnYreAJL_puofj2i02H-gpjm_Loh6ZXeO7oBikGtWczYbhLNngUaU0bZCV4ZB-Ed2cj53NkgEJXZbhR2Mn22F1XIQi-rdfKDjqoSm6n9XofzSo=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh6.googleusercontent.com/proxy/3jc8bvJ8-Jux3RbrZnmi2nufOi4XfjkWX-yt6E1zWowoOABX8iHT2iuBCt8eJKUNd8cv_1v-K5QwqlwPQxPu_GFQuUiGGP7EjexIQ_8C548pLajms0elSg5lYRMpe_qCxnSj_kbPdVEt1o11JreAAWzB2rDPbu0=w252-h168-k-no',
+      original: '//lh3.googleusercontent.com/proxy/3jc8bvJ8-Jux3RbrZnmi2nufOi4XfjkWX-yt6E1zWowoOABX8iHT2iuBCt8eJKUNd8cv_1v-K5QwqlwPQxPu_GFQuUiGGP7EjexIQ_8C548pLajms0elSg5lYRMpe_qCxnSj_kbPdVEt1o11JreAAWzB2rDPbu0=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipOqkp9uKGpZDzPbss780yrq0MDh1xDqJA0E8TLB=w252-h336-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipOqkp9uKGpZDzPbss780yrq0MDh1xDqJA0E8TLB=w287-h192-n-k-rw-no-v1'
+    }
+  ]
+}
+Processing hotel 10/10
+Successfully extracted details: {
+  name: 'Tasneem Hotel and Convention Yogyakarta',
+  rating: 4.8,
+  reviewCount: '26.8K',
+  address: 'Purawisata, Kawasan Mandira Baruga, Jl. Brigjen Katamso, Keparakan, Kec. Mergangsan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55152',
+  phoneNumber: '(0274) 371333',
+  price: 'Rp 307.189',
+  amenities: [
+    'Breakfast',
+    'Breakfast ($)',
+    'Breakfast',
+    'Free breakfast',
+    'Breakfast',
+    'Breakfast',
+    'Free breakfast',
+    'Breakfast',
+    'Free Wi-Fi',
+    'Free breakfast',
+    'Free breakfast',
+    'Breakfast ($)',
+    'Breakfast ($)',
+    'Breakfast ($)',
+    'Free Wi-Fi',
+    'Breakfast ($)',
+    'Free breakfast',
+    'Breakfast',
+    'Airport shuttle',
+    'Air conditioning',
+    'Pool',
+    'Breakfast',
+    'Wi-Fi',
+    'Air conditioning',
+    'Pool',
+    'Breakfast',
+    'Wi-Fi',
+    'Air conditioning',
+    'Internet',
+    'Wi-Fi',
+    'Wi-Fi in public areas',
+    'Public internet workstation',
+    'Policies & payments',
+    'Credit cards',
+    'Debit cards',
+    'Children',
+    'Kid-friendly',
+    'Pools',
+    'Outdoor pool',
+    'No hot tub',
+    'Parking & transportation',
+    'Parking',
+    'Self parking',
+    'Car rental onsite',
+    'Accessibility',
+    'Accessible',
+    'Accessible parking',
+    'Pets',
+    'No pets',
+    'Languages spoken',
+    'English',
+    'Indonesian',
+    'Bathrooms',
+    'Private bathroom',
+    'Shower',
+    'Food & drink',
+    'Restaurant',
+    'Table service',
+    'Room service',
+    'Breakfast',
+    'Breakfast buffet',
+    'Services',
+    'Front desk',
+    'Baggage storage',
+    'Concierge',
+    'Convenience store',
+    'Full-service laundry',
+    'Wake up calls',
+    'Gift shop',
+    'Housekeeping',
+    'Turndown service',
+    'Wellness',
+    'No fitness center',
+    'Massage',
+    'No spa',
+    'Doctor on call',
+    'Business & events',
+    'Business center',
+    'Meeting rooms',
+    'Rooms',
+    'Air conditioning',
+    'Coffee maker'
+  ],
+  images: [
+    {
+      thumbnail: 'https://lh3.googleusercontent.com/proxy/CHJ36cSxyQqHzlxNMcRbRIbn6vQhVHykCtFW6nM2tfuSdaVdGzyMxqNuZ6NWQtt7TAIaqfPhij6qVy9cNLmvknb3bJcuRqc5yS2jTzFkWxDnuOCx8caoU5W4Vl-cRUgV_h_UVvBc3y-Gic9BjCeamsIAi4ztFQ=w252-h168-k-no',
+      original: '//lh3.googleusercontent.com/proxy/CHJ36cSxyQqHzlxNMcRbRIbn6vQhVHykCtFW6nM2tfuSdaVdGzyMxqNuZ6NWQtt7TAIaqfPhij6qVy9cNLmvknb3bJcuRqc5yS2jTzFkWxDnuOCx8caoU5W4Vl-cRUgV_h_UVvBc3y-Gic9BjCeamsIAi4ztFQ=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh3.googleusercontent.com/proxy/Zv-ztgHdHIU0MUu8sepLOhJeXHfs5VRAyJe8nZt03uJuklOhRqCad2X2EOucPwzRUvvly-e1TLH7q2pHf8XGSAKM21TdVU689OjAg_pAMvktvGgFDz3yJk5EBHXJIZghbWx0p9CV6P-H2e-w-FxdFUzZCLpbGW4=w252-h168-k-no',
+      original: '//lh3.googleusercontent.com/proxy/Zv-ztgHdHIU0MUu8sepLOhJeXHfs5VRAyJe8nZt03uJuklOhRqCad2X2EOucPwzRUvvly-e1TLH7q2pHf8XGSAKM21TdVU689OjAg_pAMvktvGgFDz3yJk5EBHXJIZghbWx0p9CV6P-H2e-w-FxdFUzZCLpbGW4=w287-h192-n-k-rw-no-v1'
+    },
+    {
+      thumbnail: 'https://lh5.googleusercontent.com/p/AF1QipMZHJ8ESUg9RGl0HA_AuHFmp25FVcTfZhWTWWMm=w252-h168-k-no',
+      original: 'https://lh3.googleusercontent.com/p/AF1QipMZHJ8ESUg9RGl0HA_AuHFmp25FVcTfZhWTWWMm=w287-h192-n-k-rw-no-v1'
+    }
+  ]
+}
+Successfully scraped 10 hotels
+Final Results:
+[
+  {
+    "link": "https://www.google.com/travel/search?q=Jogja&ts=CAESCgoCCAMKAggDEAAaYApCEj4KCS9tLzBkZzZ5eDIlMHgyZTdhNTc4N2JkNWI2YmM1OjB4MjE3MjNmZDRkMzY4NGY3MToKWW9neWFrYXJ0YRoAEhoSFAoHCOkPEAEYDBIHCOkPEAEYDRgBMgIIASoJCgU6A0lEUhoA&ved=0CB4QyvcEahgKEwiwleX7jM2KAxUAAAAAHQAAAAAQwAE&ictx=3&qs=CAEgACgAMihDaG9JNjUtT3dieVhwZHEwQVJvTkwyY3ZNVEZqTW01cWNtSm9kQkFCOA1IAA&ap=MAE",
+    "name": "Pandanaran Prawirotaman Yogyakarta",
+    "rating": 4.8,
+    "reviewCount": "26.8K",
+    "address": "•",
+    "phoneNumber": "Jl. Prawirotaman No.38, Brontokusuman, Kec. Mergangsan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55153",
+    "price": "Rp 257.660",
+    "amenities": [
+      "Breakfast",
+      "Breakfast ($)",
+      "Breakfast",
+      "Free breakfast",
+      "Breakfast",
+      "Breakfast",
+      "Free breakfast",
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free breakfast",
+      "Free breakfast",
+      "Breakfast ($)",
+      "Breakfast ($)",
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Breakfast ($)",
+      "Free breakfast",
+      "Breakfast",
+      "Airport shuttle",
+      "Air conditioning",
+      "Pool",
+      "Spa",
+      "Wi-Fi",
+      "Parking",
+      "Pool",
+      "Spa",
+      "Wi-Fi",
+      "Parking",
+      "Internet",
+      "Wi-Fi",
+      "Wi-Fi in public areas",
+      "Public internet workstation",
+      "Policies & payments",
+      "Credit cards",
+      "Debit cards",
+      "Cash",
+      "Children",
+      "Kid-friendly",
+      "Pools",
+      "Outdoor pool",
+      "No hot tub",
+      "Wellness",
+      "No fitness center",
+      "Massage",
+      "Spa",
+      "Doctor on call",
+      "Business & events",
+      "Meeting rooms",
+      "Pets",
+      "No pets",
+      "Rooms",
+      "Air conditioning",
+      "Food & drink",
+      "Restaurant",
+      "Bar",
+      "Room service",
+      "Breakfast",
+      "Breakfast buffet",
+      "Services",
+      "Front desk",
+      "Baggage storage",
+      "Concierge",
+      "Full-service laundry",
+      "Elevator",
+      "Wake up calls",
+      "Housekeeping",
+      "Parking & transportation",
+      "Parking",
+      "Self parking",
+      "Valet parking",
+      "Airport shuttle",
+      "Accessibility",
+      "Accessible",
+      "Accessible parking",
+      "Accessible elevator",
+      "Languages spoken",
+      "English",
+      "Indonesian"
+    ],
+    "images": [
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNtWJZzFxTy_106ZxxI9aoYP-Of2sa81-_X85MZ=w252-h168-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipNtWJZzFxTy_106ZxxI9aoYP-Of2sa81-_X85MZ=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNtWJZzFxTy_106ZxxI9aoYP-Of2sa81-_X85MZ=w252-h168-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipNtWJZzFxTy_106ZxxI9aoYP-Of2sa81-_X85MZ=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipO2h00REysqWI3N_JKPmjYk9mezAR65pwnLr7n7=w252-h168-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipO2h00REysqWI3N_JKPmjYk9mezAR65pwnLr7n7=w287-h192-n-k-rw-no-v1"
+      }
+    ]
+  },
+  {
+    "link": "https://www.google.com/travel/search?q=Jogja&ts=CAESCgoCCAMKAggDEAAaYApCEj4KCS9tLzBkZzZ5eDIlMHgyZTdhNTc4N2JkNWI2YmM1OjB4MjE3MjNmZDRkMzY4NGY3MToKWW9neWFrYXJ0YRoAEhoSFAoHCOkPEAEYDBIHCOkPEAEYDRgBMgIIASoJCgU6A0lEUhoA&ved=0CDsQyvcEahgKEwiwleX7jM2KAxUAAAAAHQAAAAAQwAE&ictx=3&qs=CAEgACgAMiRDaGNJcU5HYWg3ZW5pc01kR2dzdlp5OHhkbnB1TWw5aU5CQUI4DUgA&ap=MAE",
+    "name": "LPP Convention Hotel",
+    "rating": 4.8,
+    "reviewCount": "26.8K",
+    "address": "•",
+    "phoneNumber": "Jl. Demangan Baru No.8, Demangan Baru, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281",
+    "price": "Rp 193.161",
+    "amenities": [
+      "Breakfast",
+      "Breakfast ($)",
+      "Breakfast",
+      "Free breakfast",
+      "Breakfast",
+      "Breakfast",
+      "Free breakfast",
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free breakfast",
+      "Free breakfast",
+      "Breakfast ($)",
+      "Breakfast ($)",
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Breakfast ($)",
+      "Free breakfast",
+      "Breakfast",
+      "Airport shuttle",
+      "Air conditioning",
+      "Spa",
+      "Parking",
+      "Wi-Fi",
+      "Air conditioning",
+      "Spa",
+      "Parking",
+      "Wi-Fi",
+      "Air conditioning",
+      "Internet",
+      "Wi-Fi",
+      "Wi-Fi in public areas",
+      "Policies & payments",
+      "Credit cards",
+      "Debit cards",
+      "NFC mobile payments",
+      "Cash",
+      "Children",
+      "Kid-friendly",
+      "Pools",
+      "No pools",
+      "No hot tub",
+      "Parking & transportation",
+      "Parking",
+      "Self parking",
+      "Airport shuttle",
+      "Car rental onsite",
+      "Local shuttle",
+      "Business & events",
+      "Business center",
+      "Meeting rooms",
+      "Languages spoken",
+      "English",
+      "Indonesian",
+      "Food & drink",
+      "Restaurant",
+      "Table service",
+      "Buffet dinner",
+      "Room service",
+      "Breakfast",
+      "Breakfast buffet",
+      "Services",
+      "Front desk",
+      "Baggage storage",
+      "Concierge",
+      "Convenience store",
+      "Full-service laundry",
+      "Wake up calls",
+      "Gift shop",
+      "Wellness",
+      "No fitness center",
+      "Spa",
+      "Accessibility",
+      "Accessible",
+      "Accessible parking",
+      "Pets",
+      "No pets",
+      "Rooms",
+      "Air conditioning",
+      "Bathrooms",
+      "Private bathroom",
+      "Energy efficiency",
+      "Energy-efficient lighting"
+    ],
+    "images": [
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipO4pCQSoXVjfYTe0zQx1O7W55jxUT_ElnjCZEmR=w252-h168-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipO4pCQSoXVjfYTe0zQx1O7W55jxUT_ElnjCZEmR=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPY840iC8dVhmd0ggxhXpf1UsIGr99eMVn9pshX=w252-h167-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipPY840iC8dVhmd0ggxhXpf1UsIGr99eMVn9pshX=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNOH5qIQ4vWxe3iQLJOQEa_2_ikqLRwitvCfvvo=w252-h168-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipNOH5qIQ4vWxe3iQLJOQEa_2_ikqLRwitvCfvvo=w287-h192-n-k-rw-no-v1"
+      }
+    ]
+  },
+  {
+    "link": "https://www.google.com/travel/search?q=Jogja&ts=CAESCgoCCAMKAggDEAAaYApCEj4KCS9tLzBkZzZ5eDIlMHgyZTdhNTc4N2JkNWI2YmM1OjB4MjE3MjNmZDRkMzY4NGY3MToKWW9neWFrYXJ0YRoAEhoSFAoHCOkPEAEYDBIHCOkPEAEYDRgBMgIIASoJCgU6A0lEUhoA&ved=0CFgQyvcEahgKEwiwleX7jM2KAxUAAAAAHQAAAAAQwAE&ictx=3&qs=CAEgACgAMiZDaGdJX2VxWXpxLTd4Y1NGQVJvTEwyY3ZNWFJyTVhkbmVXUVFBUTgNSAA&ap=MAE",
+    "name": "Emersia Malioboro Hotel",
+    "rating": 4.8,
+    "reviewCount": "26.8K",
+    "address": "•",
+    "phoneNumber": "Jl. Gowongan Kidul No.34, Gowongan, Kec. Jetis, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55232",
+    "price": "Rp 388.609",
+    "amenities": [
+      "Breakfast",
+      "Breakfast ($)",
+      "Breakfast",
+      "Free breakfast",
+      "Breakfast",
+      "Breakfast",
+      "Free breakfast",
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free breakfast",
+      "Free breakfast",
+      "Breakfast ($)",
+      "Breakfast ($)",
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Breakfast ($)",
+      "Free breakfast",
+      "Breakfast",
+      "Airport shuttle",
+      "Air conditioning",
+      "Pool",
+      "Wi-Fi",
+      "Parking",
+      "Air conditioning",
+      "Pool",
+      "Wi-Fi",
+      "Parking",
+      "Air conditioning",
+      "Internet",
+      "Wi-Fi",
+      "Services",
+      "Front desk",
+      "Full-service laundry",
+      "Pools",
+      "Outdoor pool",
+      "No hot tub",
+      "Wellness",
+      "No fitness center",
+      "No spa",
+      "Rooms",
+      "Air conditioning",
+      "Coffee maker",
+      "Food & drink",
+      "Restaurant",
+      "Room service",
+      "Breakfast",
+      "Breakfast buffet",
+      "Children",
+      "Kid-friendly",
+      "Parking & transportation",
+      "Parking",
+      "Local shuttle",
+      "Pets",
+      "No pets",
+      "Bathrooms",
+      "Private bathroom"
+    ],
+    "images": [
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNJBQz7qfB9grGhF6MR93ahLcYcJWQ7kQB2Mlbn=w252-h168-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipNJBQz7qfB9grGhF6MR93ahLcYcJWQ7kQB2Mlbn=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh3.googleusercontent.com/gvs/AG4uZQkKP-cbUMOA--c5xHmVMlhpEJSQOydGf9HZfJh5LORGJSOH2K9j-CJ9wZmFlxSBiBkXaaQBgJ3Nz1kL9DNIUNA28fbU4mA4G_5H",
+        "original": "https://lh3.googleusercontent.com/gvs/AG4uZQkKP-cbUMOA--c5xHmVMlhpEJSQOydGf9HZfJh5LORGJSOH2K9j-CJ9wZmFlxSBiBkXaaQBgJ3Nz1kL9DNIUNA28fbU4mA4G_5H=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipO9SrX-o2w322L2yrbm_8tJRa-UxFf0yP4aQ2-I=w252-h168-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipO9SrX-o2w322L2yrbm_8tJRa-UxFf0yP4aQ2-I=w287-h192-n-k-rw-no-v1"
+      }
+    ]
+  },
+  {
+    "link": "https://www.google.com/travel/search?q=Jogja&ts=CAESCgoCCAMKAggDEAAaYApCEj4KCS9tLzBkZzZ5eDIlMHgyZTdhNTc4N2JkNWI2YmM1OjB4MjE3MjNmZDRkMzY4NGY3MToKWW9neWFrYXJ0YRoAEhoSFAoHCOkPEAEYDBIHCOkPEAEYDRgBMgIIASoJCgU6A0lEUhoA&ved=0CHYQyvcEahgKEwiwleX7jM2KAxUAAAAAHQAAAAAQwAE&ictx=3&qs=CAEgACgAMidDaGtJaEtHQnZ2YlJxcUN6QVJvTUwyY3ZNVEY0ZGpjNGJtWmlFQUU4DUgA&ap=MAE",
+    "name": "favehotel Kusumanegara",
+    "rating": 4.8,
+    "reviewCount": "26.8K",
+    "address": "•",
+    "phoneNumber": "Jl. Kusumanegara No.91, Muja Muju, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55165",
+    "price": "Rp 279.071",
+    "amenities": [
+      "Breakfast",
+      "Breakfast ($)",
+      "Breakfast",
+      "Free breakfast",
+      "Breakfast",
+      "Breakfast",
+      "Free breakfast",
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free breakfast",
+      "Free breakfast",
+      "Breakfast ($)",
+      "Breakfast ($)",
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Breakfast ($)",
+      "Free breakfast",
+      "Breakfast",
+      "Airport shuttle",
+      "Air conditioning",
+      "Pool",
+      "Breakfast",
+      "Wi-Fi",
+      "Parking",
+      "Pool",
+      "Breakfast",
+      "Wi-Fi",
+      "Parking",
+      "Internet",
+      "Wi-Fi",
+      "Services",
+      "Front desk",
+      "Full-service laundry",
+      "Pools",
+      "Outdoor pool",
+      "No hot tub",
+      "Wellness",
+      "No fitness center",
+      "Pets",
+      "No pets",
+      "Food & drink",
+      "Restaurant",
+      "Room service",
+      "Breakfast",
+      "Breakfast buffet",
+      "Children",
+      "Kid-friendly",
+      "Parking & transportation",
+      "Parking",
+      "Airport shuttle",
+      "Accessibility",
+      "Accessible",
+      "Rooms",
+      "Air conditioning"
+    ],
+    "images": [
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipN9RmxV4dI5zYmDfYFBQwW6Zg8wY7axdf-IcNAF=w252-h253-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipN9RmxV4dI5zYmDfYFBQwW6Zg8wY7axdf-IcNAF=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipMqvoqqR4HFcjTrXa12k3K66bG2N6ViUECeseN_=w252-h167-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipMqvoqqR4HFcjTrXa12k3K66bG2N6ViUECeseN_=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipM9I0jVM4X2WSbJXCObyR4hvRnQX3DMP2O5AaeP=w252-h167-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipM9I0jVM4X2WSbJXCObyR4hvRnQX3DMP2O5AaeP=w287-h192-n-k-rw-no-v1"
+      }
+    ]
+  },
+  {
+    "link": "https://www.google.com/travel/search?q=Jogja&ts=CAESCgoCCAMKAggDEAAaYApCEj4KCS9tLzBkZzZ5eDIlMHgyZTdhNTc4N2JkNWI2YmM1OjB4MjE3MjNmZDRkMzY4NGY3MToKWW9neWFrYXJ0YRoAEhoSFAoHCOkPEAEYDBIHCOkPEAEYDRgBMgIIASoJCgU6A0lEUhoA&ved=0CJEBEMr3BGoYChMIsJXl-4zNigMVAAAAAB0AAAAAEMAB&ictx=3&qs=CAEgACgAMidDaGtJak9qcjZyT1hpNnNxR2cwdlp5OHhNV1JtWjNOMmMzWnpFQUU4DUgA&ap=MAE",
+    "name": "Forriz Hotel Yogyakarta",
+    "rating": 4.8,
+    "reviewCount": "26.8K",
+    "address": "•",
+    "phoneNumber": "Jl. HOS Cokroaminoto No.60, Pakuncen, Wirobrajan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55253",
+    "price": "Rp 355.099",
+    "amenities": [
+      "Breakfast",
+      "Breakfast ($)",
+      "Breakfast",
+      "Free breakfast",
+      "Breakfast",
+      "Breakfast",
+      "Free breakfast",
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free breakfast",
+      "Free breakfast",
+      "Breakfast ($)",
+      "Breakfast ($)",
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Breakfast ($)",
+      "Free breakfast",
+      "Breakfast",
+      "Airport shuttle",
+      "Air conditioning",
+      "Pool",
+      "Spa",
+      "Wi-Fi",
+      "Parking",
+      "Pool",
+      "Spa",
+      "Wi-Fi",
+      "Parking",
+      "Internet",
+      "Wi-Fi",
+      "Wi-Fi in public areas",
+      "Public internet workstation",
+      "Services",
+      "Front desk",
+      "Full-service laundry",
+      "Pools",
+      "Outdoor pool",
+      "No hot tub",
+      "Wellness",
+      "Fitness center",
+      "Spa",
+      "Pets",
+      "No pets",
+      "Rooms",
+      "Air conditioning",
+      "Food & drink",
+      "Restaurant",
+      "Room service",
+      "Breakfast",
+      "Breakfast buffet",
+      "Children",
+      "Kid-friendly",
+      "Parking & transportation",
+      "Parking",
+      "Airport shuttle",
+      "Accessibility",
+      "Accessible",
+      "Business & events",
+      "Business center",
+      "Meeting rooms"
+    ],
+    "images": [
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPyZ1xHOAn6-RDvIcA7BzkZ0XBbLFbVJhZ5k6PL=w252-h336-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipPyZ1xHOAn6-RDvIcA7BzkZ0XBbLFbVJhZ5k6PL=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://images.trvl-media.com/lodging/20000000/19270000/19265900/19265876/c7d4dec4_z.jpg",
+        "original": "https://images.trvl-media.com/lodging/20000000/19270000/19265900/19265876/c7d4dec4_z.jpg"
+      },
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/proxy/yo8DDIrOrSJ9zqcKs8BFNUuV9fdKEIFw9ZnQBkMnOYiEY6_MEHNqT-t-__hjdOQkOe11rm5rCnXDpZTe3ucWL_f1uS85go9Hwd3AGweRnFmWloGhSUdKSui6Krpfpr66_g3whqejFuB8naXtnq4yVUYcAw91Kw=w252-h168-k-no",
+        "original": "//lh3.googleusercontent.com/proxy/yo8DDIrOrSJ9zqcKs8BFNUuV9fdKEIFw9ZnQBkMnOYiEY6_MEHNqT-t-__hjdOQkOe11rm5rCnXDpZTe3ucWL_f1uS85go9Hwd3AGweRnFmWloGhSUdKSui6Krpfpr66_g3whqejFuB8naXtnq4yVUYcAw91Kw=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPQvqfqeuH9TLoAYlPCh7NffmdCgUVb2_oWrU62=s367-w367-h248-n-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipPQvqfqeuH9TLoAYlPCh7NffmdCgUVb2_oWrU62=w367-h248-n-k-rw-no-v1"
+      }
+    ]
+  },
+  {
+    "link": "https://www.google.com/travel/search?q=Jogja&ts=CAESCgoCCAMKAggDEAAaYApCEj4KCS9tLzBkZzZ5eDIlMHgyZTdhNTc4N2JkNWI2YmM1OjB4MjE3MjNmZDRkMzY4NGY3MToKWW9neWFrYXJ0YRoAEhoSFAoHCOkPEAEYDBIHCOkPEAEYDRgBMgIIASoJCgU6A0lEUhoA&ved=0CKwBEMr3BGoYChMIsJXl-4zNigMVAAAAAB0AAAAAEMAB&ictx=3&qs=CAEgACgAMidDaGtJeEtfdGhOSG8zOGtKR2cwdlp5OHhNV0kxY0d0ak5uUTJFQUU4DUgA&ap=MAE",
+    "name": "Cavinton Hotel Yogyakarta by Tritama Hospitality",
+    "rating": 4.4,
+    "reviewCount": "4.4K",
+    "address": "•",
+    "phoneNumber": "Jl. Letjen Suprapto No.1, Ngampilan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55261",
+    "price": "Rp 447.702",
+    "amenities": [
+      "Breakfast",
+      "Breakfast ($)",
+      "Breakfast",
+      "Free breakfast",
+      "Breakfast",
+      "Breakfast",
+      "Free breakfast",
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free breakfast",
+      "Free breakfast",
+      "Breakfast ($)",
+      "Breakfast ($)",
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Breakfast ($)",
+      "Free breakfast",
+      "Breakfast",
+      "Airport shuttle",
+      "Air conditioning",
+      "Pool",
+      "Spa",
+      "Wi-Fi",
+      "Parking",
+      "Pool",
+      "Spa",
+      "Wi-Fi",
+      "Parking",
+      "Internet",
+      "Wi-Fi",
+      "Policies & payments",
+      "Credit cards",
+      "Debit cards",
+      "Cash",
+      "Children",
+      "Kid-friendly",
+      "Parking & transportation",
+      "Parking",
+      "Airport shuttle",
+      "Wellness",
+      "Fitness center",
+      "Spa",
+      "Pets",
+      "No pets",
+      "Food & drink",
+      "Restaurant",
+      "Room service",
+      "Breakfast",
+      "Breakfast buffet",
+      "Services",
+      "Front desk",
+      "Full-service laundry",
+      "Pools",
+      "Pool",
+      "Outdoor pool",
+      "Hot tub",
+      "Accessibility",
+      "Accessible",
+      "Business & events",
+      "Business center",
+      "Rooms",
+      "Air conditioning"
+    ],
+    "images": [
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPwfDkMqvKVf7MvyUmbtq--PMGY1RoDVknWj7f2=w252-h168-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipPwfDkMqvKVf7MvyUmbtq--PMGY1RoDVknWj7f2=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNyB3I5nOxdIigVnp2ahz-F8QlS1V4nOq4xkrp_=w252-h189-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipNyB3I5nOxdIigVnp2ahz-F8QlS1V4nOq4xkrp_=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipO4gJRae70i2A6nqsRLqPPi0skw1agiRh_ZUI0h=w252-h189-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipO4gJRae70i2A6nqsRLqPPi0skw1agiRh_ZUI0h=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipMzGPVaP17qVa9oQVkMr1dyIU4j2-nVP9dOYf1E=s367-w367-h248-n-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipMzGPVaP17qVa9oQVkMr1dyIU4j2-nVP9dOYf1E=w367-h248-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNKUXchZei6nNDHeW_aa3_j_3wXQr2B-FGOjM6w=s367-w367-h248-n-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipNKUXchZei6nNDHeW_aa3_j_3wXQr2B-FGOjM6w=w367-h248-n-k-rw-no-v1"
+      }
+    ]
+  },
+  {
+    "link": "https://www.google.com/travel/search?q=Jogja&ts=CAESCgoCCAMKAggDEAAaYApCEj4KCS9tLzBkZzZ5eDIlMHgyZTdhNTc4N2JkNWI2YmM1OjB4MjE3MjNmZDRkMzY4NGY3MToKWW9neWFrYXJ0YRoAEhoSFAoHCOkPEAEYDBIHCOkPEAEYDRgBMgIIASoJCgU6A0lEUhoA&ved=0CMcBEMr3BGoYChMIsJXl-4zNigMVAAAAAB0AAAAAEMAB&ictx=3&qs=CAEgACgAMihDaG9JM3FPNzJKcTF4T2pVQVJvTkwyY3ZNVEZpTmw5amQxODVkQkFCOA1IAA&ap=MAE",
+    "name": "Zest Hotel Yogyakarta",
+    "rating": 4.1,
+    "reviewCount": "4.1K",
+    "address": "•",
+    "phoneNumber": "Jl. Gajah Mada No.28, Purwokinanti, Pakualaman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55112",
+    "price": "Rp 280.486",
+    "amenities": [
+      "Breakfast",
+      "Breakfast ($)",
+      "Breakfast",
+      "Free breakfast",
+      "Breakfast",
+      "Breakfast",
+      "Free breakfast",
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free breakfast",
+      "Free breakfast",
+      "Breakfast ($)",
+      "Breakfast ($)",
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Breakfast ($)",
+      "Free breakfast",
+      "Breakfast",
+      "Airport shuttle",
+      "Air conditioning",
+      "Pool",
+      "Breakfast",
+      "Wi-Fi",
+      "Parking",
+      "Pool",
+      "Breakfast",
+      "Wi-Fi",
+      "Parking",
+      "Internet",
+      "Wi-Fi",
+      "Policies & payments",
+      "Credit cards",
+      "Debit cards",
+      "Cash",
+      "Children",
+      "Kid-friendly",
+      "Parking & transportation",
+      "Parking",
+      "Airport shuttle",
+      "Accessibility",
+      "Accessible",
+      "Rooms",
+      "Air conditioning",
+      "Food & drink",
+      "Restaurant",
+      "Room service",
+      "Breakfast",
+      "Breakfast buffet",
+      "Services",
+      "Front desk",
+      "Full-service laundry",
+      "Pools",
+      "Indoor pool",
+      "No hot tub",
+      "Wellness",
+      "No fitness center",
+      "Pets",
+      "No pets"
+    ],
+    "images": [
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipMaDjEhN3JWTlNKQQTGpZXnuTsLd-BqoldCpTNL=w252-h206-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipMaDjEhN3JWTlNKQQTGpZXnuTsLd-BqoldCpTNL=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipP7s7MaMsCPc1IFv4EwjXrcA6St6ehjgYAH12SV=w252-h170-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipP7s7MaMsCPc1IFv4EwjXrcA6St6ehjgYAH12SV=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNN1wtUtTZFXLcnZOIdSi_m4iod4sMzVu0Mx_kV=w252-h168-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipNN1wtUtTZFXLcnZOIdSi_m4iod4sMzVu0Mx_kV=w287-h192-n-k-rw-no-v1"
+      }
+    ]
+  },
+  {
+    "link": "https://www.google.com/travel/search?q=Jogja&ts=CAESCgoCCAMKAggDEAAaYApCEj4KCS9tLzBkZzZ5eDIlMHgyZTdhNTc4N2JkNWI2YmM1OjB4MjE3MjNmZDRkMzY4NGY3MToKWW9neWFrYXJ0YRoAEhoSFAoHCOkPEAEYDBIHCOkPEAEYDRgBMgIIASoJCgU6A0lEUhoA&ved=0COQBEMr3BGoYChMIsJXl-4zNigMVAAAAAB0AAAAAEMAB&ictx=3&qs=CAEgACgAMihDaG9JOHNPZTdNeVJ0SjMtQVJvTkwyY3ZNVEZrWHpsa2JUUndkeEFCOA1IAA&ap=MAE",
+    "name": "Malioboro Prime Hotel Yogyakarta",
+    "rating": 4.1,
+    "reviewCount": "4.1K",
+    "address": "•",
+    "phoneNumber": "Jl. Ps. Kembang No.9, Sosromenduran, Gedong Tengen, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55271",
+    "price": "Rp 412.553",
+    "amenities": [
+      "Breakfast",
+      "Breakfast ($)",
+      "Breakfast",
+      "Free breakfast",
+      "Breakfast",
+      "Breakfast",
+      "Free breakfast",
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free breakfast",
+      "Free breakfast",
+      "Breakfast ($)",
+      "Breakfast ($)",
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Breakfast ($)",
+      "Free breakfast",
+      "Breakfast",
+      "Airport shuttle",
+      "Air conditioning",
+      "Wi-Fi",
+      "Parking",
+      "Air conditioning",
+      "Breakfast",
+      "Wi-Fi",
+      "Parking",
+      "Air conditioning",
+      "Breakfast",
+      "Internet",
+      "Wi-Fi",
+      "Wi-Fi in public areas",
+      "Policies & payments",
+      "Smoke-free property",
+      "Credit cards",
+      "Debit cards",
+      "Cash",
+      "Children",
+      "Kid-friendly",
+      "Pools",
+      "No pools",
+      "No hot tub",
+      "Wellness",
+      "No fitness center",
+      "Massage",
+      "No spa",
+      "Business & events",
+      "Meeting rooms",
+      "Languages spoken",
+      "English",
+      "Indonesian",
+      "Bathrooms",
+      "Private bathroom",
+      "Shower",
+      "Food & drink",
+      "Restaurant",
+      "Room service",
+      "Breakfast",
+      "Breakfast buffet",
+      "Activities",
+      "Bicycle rental",
+      "Services",
+      "Front desk",
+      "Baggage storage",
+      "Full-service laundry",
+      "Elevator",
+      "Wake up calls",
+      "Parking & transportation",
+      "Parking",
+      "Self parking",
+      "Valet parking",
+      "Accessibility",
+      "Accessible",
+      "Pets",
+      "No pets",
+      "Rooms",
+      "Air conditioning",
+      "Refrigerator in some rooms",
+      "Coffee maker"
+    ],
+    "images": [
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipMu6y1RqTsT8xVqXSoLHvB4F-qB2AHhgzoQx17Y=w252-h378-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipMu6y1RqTsT8xVqXSoLHvB4F-qB2AHhgzoQx17Y=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipMesPnAlIw05QB75aZiuDXNJqpq_4x-lT-cDL44=w252-h168-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipMesPnAlIw05QB75aZiuDXNJqpq_4x-lT-cDL44=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipMJ5psO6zGghyr2woHKAGoQDIKTJXI-yalCMJft=w252-h168-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipMJ5psO6zGghyr2woHKAGoQDIKTJXI-yalCMJft=w287-h192-n-k-rw-no-v1"
+      }
+    ]
+  },
+  {
+    "link": "https://www.google.com/travel/search?q=Jogja&ts=CAESCgoCCAMKAggDEAAaYApCEj4KCS9tLzBkZzZ5eDIlMHgyZTdhNTc4N2JkNWI2YmM1OjB4MjE3MjNmZDRkMzY4NGY3MToKWW9neWFrYXJ0YRoAEhoSFAoHCOkPEAEYDBIHCOkPEAEYDRgBMgIIASoJCgU6A0lEUhoA&ved=0CIECEMr3BGoYChMIsJXl-4zNigMVAAAAAB0AAAAAEMAB&ictx=3&qs=CAEgACgAMihDaG9JNlpYMDZjWGZ0Sl9sQVJvTkwyY3ZNVEZxTUc1bU5tWTBZeEFCOA1IAA&ap=MAE",
+    "name": "Wonderloft Hostel Jogja",
+    "rating": 4.6,
+    "reviewCount": "10.8K",
+    "address": null,
+    "phoneNumber": "Tirtodipuran St No.47, Mantrijeron, Yogyakarta City, Special Region of Yogyakarta 55143",
+    "price": "Rp 171.237",
+    "amenities": [
+      "Breakfast",
+      "Breakfast ($)",
+      "Breakfast",
+      "Free breakfast",
+      "Breakfast",
+      "Breakfast",
+      "Free breakfast",
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free breakfast",
+      "Free breakfast",
+      "Breakfast ($)",
+      "Breakfast ($)",
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Breakfast ($)",
+      "Free breakfast",
+      "Breakfast",
+      "Airport shuttle",
+      "Air conditioning",
+      "Wi-Fi",
+      "Air conditioning",
+      "Airport shuttle",
+      "Restaurant",
+      "Wi-Fi",
+      "Air conditioning",
+      "Airport shuttle",
+      "Restaurant",
+      "Internet",
+      "Wi-Fi",
+      "Services",
+      "Front desk",
+      "Parking & transportation",
+      "Airport shuttle",
+      "Pets",
+      "No pets",
+      "Food & drink",
+      "Restaurant",
+      "Pools",
+      "No pools",
+      "Hot tub",
+      "Wellness",
+      "No fitness center",
+      "No spa",
+      "Rooms",
+      "Air conditioning"
+    ],
+    "images": [
+      {
+        "thumbnail": "https://lh4.googleusercontent.com/proxy/v0Y5JPQK0N2iVY50lCqFpzgtZQdyfEPvq1JDtmKCkZStQdPV2ZnYreAJL_puofj2i02H-gpjm_Loh6ZXeO7oBikGtWczYbhLNngUaU0bZCV4ZB-Ed2cj53NkgEJXZbhR2Mn22F1XIQi-rdfKDjqoSm6n9XofzSo=w252-h168-k-no",
+        "original": "//lh3.googleusercontent.com/proxy/v0Y5JPQK0N2iVY50lCqFpzgtZQdyfEPvq1JDtmKCkZStQdPV2ZnYreAJL_puofj2i02H-gpjm_Loh6ZXeO7oBikGtWczYbhLNngUaU0bZCV4ZB-Ed2cj53NkgEJXZbhR2Mn22F1XIQi-rdfKDjqoSm6n9XofzSo=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh6.googleusercontent.com/proxy/3jc8bvJ8-Jux3RbrZnmi2nufOi4XfjkWX-yt6E1zWowoOABX8iHT2iuBCt8eJKUNd8cv_1v-K5QwqlwPQxPu_GFQuUiGGP7EjexIQ_8C548pLajms0elSg5lYRMpe_qCxnSj_kbPdVEt1o11JreAAWzB2rDPbu0=w252-h168-k-no",
+        "original": "//lh3.googleusercontent.com/proxy/3jc8bvJ8-Jux3RbrZnmi2nufOi4XfjkWX-yt6E1zWowoOABX8iHT2iuBCt8eJKUNd8cv_1v-K5QwqlwPQxPu_GFQuUiGGP7EjexIQ_8C548pLajms0elSg5lYRMpe_qCxnSj_kbPdVEt1o11JreAAWzB2rDPbu0=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipOqkp9uKGpZDzPbss780yrq0MDh1xDqJA0E8TLB=w252-h336-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipOqkp9uKGpZDzPbss780yrq0MDh1xDqJA0E8TLB=w287-h192-n-k-rw-no-v1"
+      }
+    ]
+  },
+  {
+    "link": "https://www.google.com/travel/search?q=Jogja&ts=CAESCgoCCAMKAggDEAAaYApCEj4KCS9tLzBkZzZ5eDIlMHgyZTdhNTc4N2JkNWI2YmM1OjB4MjE3MjNmZDRkMzY4NGY3MToKWW9neWFrYXJ0YRoAEhoSFAoHCOkPEAEYDBIHCOkPEAEYDRgBMgIIASoJCgU6A0lEUhoA&ved=0CJoCEMr3BGoYChMIsJXl-4zNigMVAAAAAB0AAAAAEMAB&ictx=3&qs=CAEgACgAMidDaGtJbUtQQmh0emltWWNkR2cwdlp5OHhNV0pqT1RZNVpqUTRFQUU4DUgA&ap=MAE",
+    "name": "Tasneem Hotel and Convention Yogyakarta",
+    "rating": 4.8,
+    "reviewCount": "26.8K",
+    "address": "Purawisata, Kawasan Mandira Baruga, Jl. Brigjen Katamso, Keparakan, Kec. Mergangsan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55152",
+    "phoneNumber": "(0274) 371333",
+    "price": "Rp 307.189",
+    "amenities": [
+      "Breakfast",
+      "Breakfast ($)",
+      "Breakfast",
+      "Free breakfast",
+      "Breakfast",
+      "Breakfast",
+      "Free breakfast",
+      "Breakfast",
+      "Free Wi-Fi",
+      "Free breakfast",
+      "Free breakfast",
+      "Breakfast ($)",
+      "Breakfast ($)",
+      "Breakfast ($)",
+      "Free Wi-Fi",
+      "Breakfast ($)",
+      "Free breakfast",
+      "Breakfast",
+      "Airport shuttle",
+      "Air conditioning",
+      "Pool",
+      "Breakfast",
+      "Wi-Fi",
+      "Air conditioning",
+      "Pool",
+      "Breakfast",
+      "Wi-Fi",
+      "Air conditioning",
+      "Internet",
+      "Wi-Fi",
+      "Wi-Fi in public areas",
+      "Public internet workstation",
+      "Policies & payments",
+      "Credit cards",
+      "Debit cards",
+      "Children",
+      "Kid-friendly",
+      "Pools",
+      "Outdoor pool",
+      "No hot tub",
+      "Parking & transportation",
+      "Parking",
+      "Self parking",
+      "Car rental onsite",
+      "Accessibility",
+      "Accessible",
+      "Accessible parking",
+      "Pets",
+      "No pets",
+      "Languages spoken",
+      "English",
+      "Indonesian",
+      "Bathrooms",
+      "Private bathroom",
+      "Shower",
+      "Food & drink",
+      "Restaurant",
+      "Table service",
+      "Room service",
+      "Breakfast",
+      "Breakfast buffet",
+      "Services",
+      "Front desk",
+      "Baggage storage",
+      "Concierge",
+      "Convenience store",
+      "Full-service laundry",
+      "Wake up calls",
+      "Gift shop",
+      "Housekeeping",
+      "Turndown service",
+      "Wellness",
+      "No fitness center",
+      "Massage",
+      "No spa",
+      "Doctor on call",
+      "Business & events",
+      "Business center",
+      "Meeting rooms",
+      "Rooms",
+      "Air conditioning",
+      "Coffee maker"
+    ],
+    "images": [
+      {
+        "thumbnail": "https://lh3.googleusercontent.com/proxy/CHJ36cSxyQqHzlxNMcRbRIbn6vQhVHykCtFW6nM2tfuSdaVdGzyMxqNuZ6NWQtt7TAIaqfPhij6qVy9cNLmvknb3bJcuRqc5yS2jTzFkWxDnuOCx8caoU5W4Vl-cRUgV_h_UVvBc3y-Gic9BjCeamsIAi4ztFQ=w252-h168-k-no",
+        "original": "//lh3.googleusercontent.com/proxy/CHJ36cSxyQqHzlxNMcRbRIbn6vQhVHykCtFW6nM2tfuSdaVdGzyMxqNuZ6NWQtt7TAIaqfPhij6qVy9cNLmvknb3bJcuRqc5yS2jTzFkWxDnuOCx8caoU5W4Vl-cRUgV_h_UVvBc3y-Gic9BjCeamsIAi4ztFQ=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh3.googleusercontent.com/proxy/Zv-ztgHdHIU0MUu8sepLOhJeXHfs5VRAyJe8nZt03uJuklOhRqCad2X2EOucPwzRUvvly-e1TLH7q2pHf8XGSAKM21TdVU689OjAg_pAMvktvGgFDz3yJk5EBHXJIZghbWx0p9CV6P-H2e-w-FxdFUzZCLpbGW4=w252-h168-k-no",
+        "original": "//lh3.googleusercontent.com/proxy/Zv-ztgHdHIU0MUu8sepLOhJeXHfs5VRAyJe8nZt03uJuklOhRqCad2X2EOucPwzRUvvly-e1TLH7q2pHf8XGSAKM21TdVU689OjAg_pAMvktvGgFDz3yJk5EBHXJIZghbWx0p9CV6P-H2e-w-FxdFUzZCLpbGW4=w287-h192-n-k-rw-no-v1"
+      },
+      {
+        "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipMZHJ8ESUg9RGl0HA_AuHFmp25FVcTfZhWTWWMm=w252-h168-k-no",
+        "original": "https://lh3.googleusercontent.com/p/AF1QipMZHJ8ESUg9RGl0HA_AuHFmp25FVcTfZhWTWWMm=w287-h192-n-k-rw-no-v1"
+      }
+    ]
+  }
+]
+DEBUG - 2024-12-29 14:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-29 14:35:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main.php"
+[Method: GET, Route: signin]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('signin', [], true)
+ 4 APPPATH\Controllers\SigninController.php(11): view('signin')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SigninController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-12-29 14:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-29 14:35:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main.php"
+[Method: GET, Route: signin]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('signin', [], true)
+ 4 APPPATH\Controllers\SigninController.php(11): view('signin')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SigninController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-12-29 14:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-29 14:35:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main.php"
+[Method: GET, Route: signin]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('signin', [], true)
+ 4 APPPATH\Controllers\SigninController.php(11): view('signin')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SigninController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-12-29 14:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 14:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-29 15:26:48 --> Error: Class "App\Filters\AuthFilter" not found
+[Method: GET, Route: api/logout]
+in SYSTEMPATH\Filters\Filters.php on line 197.
+ 1 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 2 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/logout', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-12-29 15:28:02 --> Error: Class "App\AuthFilter" not found
+[Method: GET, Route: api/logout]
+in SYSTEMPATH\Filters\Filters.php on line 197.
+ 1 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 2 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/logout', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-12-29 15:29:34 --> Error: Class "App\Filters\AuthFilter" not found
+[Method: GET, Route: api/logout]
+in SYSTEMPATH\Filters\Filters.php on line 197.
+ 1 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 2 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/logout', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-12-29 15:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-29 15:31:23 --> Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri
+[Method: GET, Route: api/logout]
+in APPPATH\Filters\AuthFilter.php on line 14.
+ 1 SYSTEMPATH\Filters\Filters.php(203): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/logout', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-12-29 15:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-29 15:32:12 --> Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri
+[Method: GET, Route: api/logout]
+in APPPATH\Filters\AuthGuard.php on line 14.
+ 1 SYSTEMPATH\Filters\Filters.php(203): App\Filters\AuthGuard->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/logout', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-12-29 15:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-29 15:33:20 --> Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri
+[Method: GET, Route: api/logout]
+in APPPATH\Filters\AuthGuard.php on line 15.
+ 1 SYSTEMPATH\Filters\Filters.php(203): App\Filters\AuthGuard->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/logout', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-12-29 15:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-29 15:34:05 --> Error: Class "App\AuthGuard" not found
+[Method: GET, Route: api/logout]
+in SYSTEMPATH\Filters\Filters.php on line 197.
+ 1 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\Filters->runBefore([...])
+ 2 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\Filters\Filters->run('api/logout', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-12-29 15:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 15:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-29 16:31:01 --> ErrorException: session_destroy(): Trying to destroy uninitialized session
+[Method: GET, Route: logout]
+in APPPATH\Controllers\SigninController.php on line 68.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy(): Trying to destroy uninitialized session', 'D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\app\\Controllers\\SigninController.php', 68)
+ 2 APPPATH\Controllers\SigninController.php(68): session_destroy()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SigninController->logout()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-12-29 16:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-29 16:31:33 --> ErrorException: session_destroy(): Trying to destroy uninitialized session
+[Method: GET, Route: logout]
+in APPPATH\Controllers\SigninController.php on line 68.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy(): Trying to destroy uninitialized session', 'D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\app\\Controllers\\SigninController.php', 68)
+ 2 APPPATH\Controllers\SigninController.php(68): session_destroy()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SigninController->logout()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-12-29 16:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-29 16:46:39 --> ErrorException: Undefined variable $session_destroy
+[Method: GET, Route: logout]
+in APPPATH\Controllers\SigninController.php on line 68.
+ 1 APPPATH\Controllers\SigninController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session_destroy', 'D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\app\\Controllers\\SigninController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SigninController->logout()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-12-29 16:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 16:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-29 17:05:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/signup.php"
+[Method: GET, Route: signup]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/signup.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/signup', [], true)
+ 3 APPPATH\Controllers\SignupController.php(12): view('auth/signup', [])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SignupController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-12-29 17:05:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/signup.php"
+[Method: GET, Route: signup]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/signup.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/signup', [], true)
+ 3 APPPATH\Controllers\SignupController.php(12): view('auth/signup', [])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SignupController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-12-29 17:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-29 17:09:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/auth.php"
+[Method: GET, Route: signup]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/auth.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/auth', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/signup', [], true)
+ 4 APPPATH\Controllers\SignupController.php(12): view('auth/signup', [])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SignupController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-12-29 17:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-29 17:36:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index.php"
+[Method: GET, Route: api/plans]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\TravelController.php(26): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TravelController->getPlans()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-12-29 17:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 17:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-29 18:37:54 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: plans]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\plans\index.php(474): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\app\\Views\\plans\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('plans/index', [], true)
+ 5 APPPATH\Controllers\TravelController.php(20): view('plans/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TravelController->getPlans()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-12-29 18:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-29 18:38:23 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: plans]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\plans\index.php(474): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\app\\Views\\plans\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('plans/index', [], true)
+ 5 APPPATH\Controllers\TravelController.php(20): view('plans/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TravelController->getPlans()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TravelController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-12-29 18:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 18:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:23:32 --> Executing command: node "D:\NINA\itb\sANtAi\5\tst\CodeIgniter4-develop\app/ThirdParty/puppeteer/scrapeGoogleFlights.js" ""tokyo"" ""jakarta"" ""2025-01-20""
+DEBUG - 2024-12-29 19:24:31 --> Raw output: [
+  {
+    "airline": "Self transferThis trip includes tickets from multiple airlines. Missed connections may be protected by the booking provider.",
+    "departureTime": "6:35 AM",
+    "arrivalTime": "5:55 PM",
+    "departureAirport": "HND",
+    "arrivalAirport": "CGK",
+    "price": "IDR 3,444,764"
+  },
+  {
+    "airline": "Philippine Airlines",
+    "departureTime": "9:30 AM",
+    "arrivalTime": "12:20 AM+1",
+    "departureAirport": "NRT",
+    "arrivalAirport": "CGK",
+    "price": "IDR 3,525,304"
+  },
+  {
+    "airline": "Cebu Pacific",
+    "departureTime": "12:50 PM",
+    "arrivalTime": "11:05 PM",
+    "departureAirport": "NRT",
+    "arrivalAirport": "CGK",
+    "price": "IDR 4,079,339"
+  },
+  {
+    "airline": "Batik Air",
+    "departureTime": "10:25 AM",
+    "arrivalTime": "9:35 PM",
+    "departureAirport": "NRT",
+    "arrivalAirport": "CGK",
+    "price": "IDR 4,170,652"
+  },
+  {
+    "airline": "Scoot",
+    "departureTime": "9:00 AM",
+    "arrivalTime": "7:30 PM",
+    "departureAirport": "NRT",
+    "arrivalAirport": "CGK",
+    "price": "IDR 4,380,775"
+  },
+  {
+    "airline": "Scoot",
+    "departureTime": "9:00 AM",
+    "arrivalTime": "10:35 AM+1",
+    "departureAirport": "NRT",
+    "arrivalAirport": "CGK",
+    "price": "IDR 3,765,181"
+  },
+  {
+    "airline": "Batik Air",
+    "departureTime": "10:25 AM",
+    "arrivalTime": "8:15 AM+1",
+    "departureAirport": "NRT",
+    "arrivalAirport": "CGK",
+    "price": "IDR 4,019,832"
+  },
+  {
+    "airline": "Self transferThis trip includes tickets from multiple airlines. Missed connections may be protected by the booking provider.",
+    "departureTime": "11:25 AM",
+    "arrivalTime": "11:05 PM",
+    "departureAirport": "NRT",
+    "arrivalAirport": "CGK",
+    "price": "IDR 4,337,991"
+  },
+  {
+    "airline": "ANA",
+    "departureTime": "5:45 PM",
+    "arrivalTime": "11:55 PM",
+    "departureAirport": "NRT",
+    "arrivalAirport": "CGK",
+    "price": "IDR 9,393,970"
+  },
+  {
+    "airline": "Garuda Indonesia",
+    "departureTime": "11:45 AM",
+    "arrivalTime": "5:45 PM",
+    "departureAirport": "HND",
+    "arrivalAirport": "CGK",
+    "price": "IDR 9,662,779"
+  },
+  {
+    "airline": "Garuda Indonesia",
+    "departureTime": "11:00 AM",
+    "arrivalTime": "5:00 PM+2",
+    "departureAirport": "NRT",
+    "arrivalAirport": "HLP",
+    "price": "IDR 9,667,909"
+  },
+  {
+    "airline": "JAL",
+    "departureTime": "10:55 AM",
+    "arrivalTime": "4:55 PM",
+    "departureAirport": "NRT",
+    "arrivalAirport": "CGK",
+    "price": "IDR 11,302,312"
+  },
+  {
+    "airline": "JAL",
+    "departureTime": "6:00 PM",
+    "arrivalTime": "11:55 PM",
+    "departureAirport": "NRT",
+    "arrivalAirport": "CGK",
+    "price": "IDR 11,302,312"
+  },
+  {
+    "airline": "ANA",
+    "departureTime": "12:05 AM",
+    "arrivalTime": "6:00 AM",
+    "departureAirport": "HND",
+    "arrivalAirport": "CGK",
+    "price": "IDR 27,973,634"
+  },
+  {
+    "airline": "ANA",
+    "departureTime": "10:15 AM",
+    "arrivalTime": "4:15 PM",
+    "departureAirport": "HND",
+    "arrivalAirport": "CGK",
+    "price": "IDR 27,973,634"
+  },
+  {
+    "airline": "Self transferThis trip includes tickets from multiple airlines. Missed connections may be protected by the booking provider.",
+    "departureTime": "6:35 AM",
+    "arrivalTime": "5:55 PM",
+    "departureAirport": "HND",
+    "arrivalAirport": "CGK",
+    "price": "IDR 3,444,764"
+  },
+  {
+    "airline": "Philippine Airlines",
+    "departureTime": "9:30 AM",
+    "arrivalTime": "12:20 AM+1",
+    "departureAirport": "NRT",
+    "arrivalAirport": "CGK",
+    "price": "IDR 3,525,304"
+  },
+  {
+    "airline": "Cebu Pacific",
+    "departureTime": "12:50 PM",
+    "arrivalTime": "11:05 PM",
+    "departureAirport": "NRT",
+    "arrivalAirport": "CGK",
+    "price": "IDR 4,079,339"
+  },
+  {
+    "airline": "Batik Air",
+    "departureTime": "10:25 AM",
+    "arrivalTime": "9:35 PM",
+    "departureAirport": "NRT",
+    "arrivalAirport": "CGK",
+    "price": "IDR 4,170,652"
+  },
+  {
+    "airline": "Scoot",
+    "departureTime": "9:00 AM",
+    "arrivalTime": "7:30 PM",
+    "departureAirport": "NRT",
+    "arrivalAirport": "CGK",
+    "price": "IDR 4,380,775"
+  }
+]
+DEBUG - 2024-12-29 19:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-29 19:26:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "flights_search.php"
+[Method: GET, Route: flights]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('flights_search.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('flights_search', [], true)
+ 3 APPPATH\Controllers\FlightsController.php(60): view('flights_search')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FlightsController->search()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FlightsController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-12-29 19:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-29 19:27:36 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ""https:"
+[Method: GET, Route: %22https:/cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js/%22]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('"https:/cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js/"')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('"https:/cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js/"')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\NINA\\itb\\sANtAi\\5\\tst\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-12-29 19:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-29 19:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
